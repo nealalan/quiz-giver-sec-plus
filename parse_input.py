@@ -106,7 +106,7 @@ def quiz():
         if get_answer in ['X','x','Q','q']:
             continue_quiz = False
 
-    #print("\n\033[5;31;38mYOU GOT " + str(right) + " RIGHT AND " + str(wrong) + " WRONG! THAT'S "+ str((right / (right + wrong)) * 100) + "%. \033[0m ")
+    print("\n\033[5;31;38mYOU GOT " + str(right) + " RIGHT AND " + str(wrong) + " WRONG! OUT Of "+ str(right + wrong) + " QUESTIONS. \033[0m ")
     return
 
 if __name__ == '__main__':
