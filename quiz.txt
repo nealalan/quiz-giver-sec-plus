@@ -503,7 +503,7 @@ A. Implement a BYOD policy.
 B. Update the AUP.
 C. Provide training on data handling.
 D. Implement a program to increase security awareness.
-1001. Homer needs to send an email to his HR department with an attachment that includes PH. He wants to maintain the confidentiality of this attachment. Which of the following choices is the BEST choice to meet his needs?
+1001. Homer needs to send an email to his HR department with an attachment that includes PII. He wants to maintain the confidentiality of this attachment. Which of the following choices is the BEST choice to meet his needs?
 A. Hashing
 B. Digital signature
 C. Encryption
@@ -593,7 +593,7 @@ A. Diameter and biometrics
 B. Kerberos and LDAP
 C. SAML and SSO
 D. PAP and CHAP
-1019. Users in your organization access your network from remote locations. Currently, the remote access solution uses RADIUS. However, the organization wants to implement a stronger authentication service that supports EAR Which of the following choices BEST meets this goaP
+1019. Users in your organization access your network from remote locations. Currently, the remote access solution uses RADIUS. However, the organization wants to implement a stronger authentication service that supports EAP. Which of the following choices BEST meets this goaP
 A. TACACS+
 B. Diameter
 C. Kerberos
@@ -762,7 +762,7 @@ D. Web server
 A. Implement subnetting.
 B. Implement secure zone transfers.
 C. Block outgoing traffic on UDP port 53.
-D. Add a WAR
+D. Add a WAF
 3013. A network technician incorrectly wired switch connections in your organization's network. It effectively disabled the switch as though it was a victim of a denial-of-service attack. What should be done to prevent this in the future?
 A. Install an IDS.
 B. Only use Layer 2 switches.
@@ -1218,7 +1218,7 @@ B. $500
 C. $3,000
 D. $30,000
 8003. You need to calculate the expected loss of an incident. Which of the following value combinations would you MOST likely use?
-A. ALE and ARC
+A. ALE and ARO
 B. ALE and SLE
 C. SLE and ARC
 D. ARO and ROI
@@ -1347,7 +1347,7 @@ A. DRP
 B. BIA
 C. COOP
 D. RTO
-9009. You are helping implement your company's business continuity plan. For one system, the plan requires an RIG of five hours and an RPO of one day. Which of the following would meet this requirement?
+9009. You are helping implement your company's business continuity plan. For one system, the plan requires an RTO of five hours and an RPO of one day. Which of the following would meet this requirement?
 A. Ensure the system can be restored within five hours and ensure it does not lose more than one day of data.
 B. Ensure the system can be restored within one day and ensure it does not lose more than five hours of data.
 C. Ensure the system can be restored between five hours and one day after an outage.
@@ -1723,7 +1723,7 @@ D. SFTP traffic
 A. Restrict traffic based on port numbers.
 B. Restrict traffic based on physical addresses.
 C. Implement DNS on the network.
-D. Enable SNMR
+D. Enable SNMP
 224. An organization recently updated its security policy. A new requirement dictates a need to increase protection from rogue devices plugging into physical ports. Which of the following choices provides the BEST protection?
 A. Disable unused ports.
 B. Implement 802.1 x.
@@ -1735,7 +1735,7 @@ B. Timestamp
 C. Password
 D. Implicit deny
 226. Your organization wants to protect its web server from cross-site scripting attacks. Which of the following choices provides the BEST protection?
-A. WAR
+A. WAF
 B. Network-based firewall
 C. Host-based firewall
 D. IDS
@@ -2030,7 +2030,7 @@ D. ECDHE
 284. A user wants to hide confidential data within a .jpg file. Which of the following Is the BEST choice to meet this need?
 A. ECC
 B. Steganography
-C. CRL
+C. CCRL
 D. File-level encryption
 285. You need to ensure data sent over an IP-based network remains confidential. Which of the
 following provides the BEST solution?
