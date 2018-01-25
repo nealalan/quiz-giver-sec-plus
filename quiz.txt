@@ -639,8 +639,8 @@ B. Access list
 C. CCTV
 D. Bollards
 2008. Thieves recently rammed a truck through the entrance of your company's main building. During the chaos, their partners proceeded to steal a significant amount of IT equipment. Which of the following choices can you use to prevent this from happening again?
-A. Bollards
-B. Guards
+A. Guards
+B. Bollards
 C. CCTV
 D. Mantrap
 2009. You maintain a training lab with 18 computers. You have enough rights and permissions on these machines so that you can configure them as needed for classes. However, you do not have the rights to add them to your organization's domain. Which of the following choices BEST describes this example?
