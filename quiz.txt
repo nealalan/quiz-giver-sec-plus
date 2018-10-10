@@ -1790,7 +1790,7 @@ A. The network name is contained in wireless packets in plaintext.
 B. The passphrase is contained in wireless packets in plaintext.
 C. The SSID is included in MAC filters.
 D. The SSID is not used with WPA2.
-237. You are reviewing logs from a wireless survey within your organization's network due to a suspected attack and you notice the following entries:  \n    MAC: 12:AB:34:CD:56:EF 12:AB:34:CD:56:EF 56:CD:34:EF:12:AB 12:AB:34:CD:56:EF 12:AB:34:CD:56:EF         \n SSID:  GetCertifiedGetAhead; Encryption: WPA2; Power: 47  62  20  57  49        \n Of the following choices, what is the MOST likely explanation of these entries?
+237. You are reviewing logs from a wireless survey within your organization's network due to a suspected attack and you notice the following entries:  \n    MAC: 12:AB:34:CD:56:EF 12:AB:34:CD:56:EF 56:CD:34:EF:12:AB 12:AB:34:CD:56:EF 12:AB:34:CD:56:EF         \n SSID:  GetCertifiedGetAhead; Encryption: WPA2; Power: 47  62  20  57  49        \n Of thh following choices, what is the MOST likely explanation of these entries?
 A. An evil twin is in place.
 B. Power of the AP needs to be adjusted.
 C. A rogue AP is in place.
@@ -2032,15 +2032,12 @@ A. ECC
 B. Steganography
 C. CCRL
 D. File-level encryption
-285. You need to ensure data sent over an IP-based network remains confidential. Which of the
-following provides the BEST solution?
+285. You need to ensure data sent over an IP-based network remains confidential. Which of the following provides the BEST solution?
 A. Stream ciphers
 B. Block ciphers
 C. Transport encryption
 D. Hashing
-286. Personnel within your company are assisting an external auditor perform a security audit. They
-frequently send documents to the auditor via email and some of these documents contain confidential Information. Management wants to implement a solution to reduce the possibility
-of unintentionally exposing this data. Which of the following Is the BEST choice?
+286. Personnel within your company are assisting an external auditor perform a security audit. They frequently send documents to the auditor via email and some of these documents contain confidential Information. Management wants to implement a solution to reduce the possibility of unintentionally exposing this data. Which of the following Is the BEST choice?
 A. Hash all outbound email containing confidential Information.
 B. Use digital signatures on all outbound email containing confidential Information.
 C. Encrypt all outbound email containing confidential Information.
@@ -2101,7 +2098,8 @@ A. P2P
 B. Social media
 C. Media devices
 D. News media
-298. Your organization wants to prevent damage from malware. Which stage of the common incident response procedures is the BEST stage to address this? A. Preparation
+298. Your organization wants to prevent damage from malware. Which stage of the common incident response procedures is the BEST stage to address this?
+A. Preparation
 B. Identification
 C. Mitigation
 D. Lessons learned
@@ -2115,3 +2113,1581 @@ A. Witnesses were not identified.
 B. A chain of custody was not maintained.
 C. An order of volatility was not maintained.
 D. A hard drive analysis was not complete.
+500001. Management within your organization has defined a use case to support confidentiality of Pll stored in a database. Which of the following solutions will BEST meet this need?
+A. Hashing
+B. Digital signature
+C. Encryption
+D. Smart card
+500002. Management has implemented a policy stating that messages sent between upper-level executives must arrive without any changes. The IT department is tasked with implementing technical controls to meet this need. Which security goal does this policy address?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+500003. Your organization recently implemented two servers that act as failover devices for each other. Which security goal is your organization pursuing?
+A. Obfuscation
+B. Integrity
+C. Confidentiality
+D. Availability
+500004. You are tasked with improving the overall security for a database server. Which of the following is a preventive control that will assist with this goal?
+A. Disabling unnecessary services
+B. Identifying the initial baseline configuration
+C. Monitoring logs for trends
+D. Implementing a backup and restoration plan
+500005. An IT department recently had its hardware budget reduced, but the organization still expects them to maintain availability of services. Which of the following choices would BEST help them maintain availability with a reduced budget?
+A. Failover clusters
+B. Virtualization
+C. Bollards
+D. Hashing
+500006. You want to test new security controls before deploying them. Which of the following technologies provides the MOST flexibility to meet this goal?
+A. Baselines
+B. Hardening techniques
+C. Virtualization technologies
+D. Patch management programs
+500007. You suspect that traffic in your network is being rerouted to an unauthorized router within your network. Which of the following command-line tools would help you narrow down the problem?
+A. ping
+B. tracert
+C. ipconfig
+D. netstat
+500008. The First Bank of Springfield has been experiencing widespread fraud recently. Attackers are transferring funds out of customer accounts to other banks. The bank began requiring customers to obtain credentials in person at the bank. However, this hasn't reduced the number of fraudulent transactions. After reviewing available logs, investigators determined that these fraudulent transactions are conducted with the customer's actual credentials. Which of the following security controls should be strengthened to reduce these incidents?
+A. Authentication
+B. Identification
+C. Accounting
+D. Authorization
+500009. An outside security auditor recently completed an in-depth security audit on your network. One of the issues he reported was related to passwords. Specifically, he found the following passwords used on the network: Pa$$, 1@W2, and G7bT3. Which of the following should be changed to avoid the problem shown with these passwords?
+A. Password complexity
+B. Password length
+C. Password history
+D. Password reuse
+500010. When you log on to your online bank account, you are also able to access a partner's credit card site, check-ordering services, and a mortgage site without entering your credentials again. Which of the following does this describe?
+A. SSO
+B. Same sign-on
+C. SAML
+D. Kerberos
+500011. Your network uses an authentication service based on the X.500 specification. When encrypted, it usesTLS. Which authentication service is your network using?
+A. SAML
+B. Diameter
+C. Kerberos
+D. LDAP
+500012. You're asked to identify who is accessing a spreadsheet containing employee salary data. Detailed logging is configured correctly on this file. However, you are unable to identify a specific person who is accessing the fiie. Which of the following is the MOST likely reason?
+A. Shared accounts are not prohibited.
+B. Guest accounts are disabled.
+C. Permissions for the file were assigned to a group.
+D. Account lockout has been enabled.
+500013. Interns from a local college frequently work at your company. Some interns work with the database developers, some interns work with the web application developers, and some interns work with both developers. Interns working with the database developers require specific privileges, and interns working with the web application developers require different privileges. Which of the following is the simplest method to meet these requirements?
+A. Use generic accounts.
+B. Create user-based privileges.
+C. Use group-based privileges.
+D. Grant the interns access to the Guest account.
+500014. You are configuring a file server used to share files and folders among employees within your organization. However, employees should not be able to access all folders on this server. Which of the following choices is the BEST method to manage security for these folders?
+A. Assign permissions to each user as needed.
+B. Wait for users to request permission and then assign the appropriate permissions.
+C. Delegate authority to assign these permissions.
+D. Use security groups with appropriate permissions.
+500015. The Retirement Castle uses groups for ease of administration and management They recently hired Jasper as their new accountant. Jasper needs access to all the files and folders used by the Accounting department. Which of the following should the administrator do to give Jasper appropriate access?
+A. Create an account for Jasper and add the account to the Accounting group.
+B. Give Jasper the password for the Guest account.
+C. Create an account for Jasper and use rule-based access control for accounting.
+D. Create an account for Jasper and add the account to the Administrators group.
+500016. You need to send several large files containing proprietary data to a business partner. Which of the following is the BEST choice for this task?
+A. FTP
+B. SNMPv3
+C. SFTP
+D. SRTP
+500017. Your organization is planning to establish a secure link between one of your mail servers and a business partner's mail server.The connection will use the Internet. Which protocol is the BEST choice?
+A. TLS
+B. SMTP
+C. HTTP
+D. SSH
+500018. Bart is adding a DMZ into his organization's network. Which of the following is the BEST description of why he would do so?
+A. To increase security for servers accessed from public networks
+B. To provide a secure physical location for networking equipment
+C. To lure attackers to a fake server or fake network
+D. To cache data retrieved from a web server
+500019. Your organization wants to prevent employees from accessing file sharing web sites. Which of the following choices will meet this need?
+A. Content inspection
+B. Malware inspection
+C. URL filter
+D. Web application firewall
+500020. Your organization hosts several web servers in a web farm.They have recently been attacked, resulting in unacceptable downtime. Management wants to implement a solution that will provide protection for the web farm and include load balancing to improve the overall performance of the web farm. Which of the following will BEST meet this need?
+A. Stateless firewall
+B. Stateful firewall
+C. Web application firewall
+D. Host-based firewall
+500021. Management suspects that employees have been sending proprietary data out of the network via email. They want to implement a solution that will detect and block similar incidents in the future. Which of the following is the BEST choice to meet this need?
+A. Mail gateway
+B. UTM appliance
+C. Forward proxy
+D. Reverse proxy
+500022. You are tasked with configuring a switch so that it separates VoIP and data traffic. Which of the following provides the BEST solution?
+A. NAC
+B. DMZ
+C. SRTP
+D. VLAN
+500023. Your organization hosts an e-commerce business that has become quite successful recently. It includes a web farm and a database server within the DMZ. IT management is concerned that there isn't enough staff working around the clock to protect these servers. Which of the following would provide the BEST automated protection for these servers?
+A. NiDS and HIDS
+B. NIPS and HIPS
+C. SIEM and NIPS
+D. SIEM and NIDS
+500024. Management is concerned about malicious activity and wants to implement a security control that will detect unusual traffic on the network. Which of the following is the BEST choice to meet this goal?
+A. Network-based firewall
+B. Signature-based IDS
+C. Anomaly-based IDS
+D. Honeynet
+500025. Of the following choices, what can you use to divert malicious attacks on your network away from valuable data to worthless, fabricated data?
+A. IPS
+B. Proxy server
+C. Web application firewall
+D. Honeypot
+500026. Your organization frequently has guests visiting in various conference rooms throughout the building. These guests need access to the Internet via the wireless network, but should not be able to access internal network resources. Employees need access to both the internal network and the Internet. Which of the following would BEST meet this need?
+A. NAT
+B. DMZ
+C. VPN
+D. 802.1 X
+500027. Management asks you If you can modify the wireless network to prevent users from easily discovering it Which of the following would you modify to meet this goal?
+A. CCMP
+B. WPA2 Enterprise
+C. SSID broadcast
+D. MAC address filter
+500028. Marge, a security administrator, is tasked with ensuring that all devices have updated virus definition files before they can access network resources. Which of the following technologies would help her accomplish this goal?
+A. NIDS
+B. NAG
+C. DLP
+D. DMZ
+500029. Your organization is hosting a wireless network with an 802.1 x server using PEAR On Thursday, users report they can no longer access the wireless network, but they could access it on the previous day. Administrators verified the network configuration matches the baseline, there aren't any hardware outages, and the wired network is operational. Which of the following is the MOST likely cause for this problem?
+A. The RADIUS server certificate expired.
+B. DNS is providing incorrect host names.
+C. DHCP is issuing duplicate IP addresses.
+D. MAC filtering is enabled.
+500030. Lisa has created an application on her development computer. She wants to test it on a Linux-based computer she commonly uses for testing. However, she wants to ensure it is isolated when she tests it. Which of the following is the BEST solution to meet her needs?
+A. Use chroot.
+B. Sideload the application.
+C. UseFDE.
+D. Use chmod.
+500031. Your organization recently purchased some laptops that include a TPM. Which of the following BEST identifies what the TPM provides?
+A. Detection of unauthorized data transfers
+B. A hardware root of trust
+C. Sandboxing
+D. An external security device used to store cryptographic keys
+500032. Your organization has recently rented access to computing resources via a cloud. Administrators within your organization apply patches to the operating system. Which of the following choices BEST describes this cloud deployment model?
+A. Community
+B. Software as a Service
+C. Infrastructure as a Service
+D. Hybrid
+500033. Homer noticed that several generators within the nuclear power plant have been turning on without user Interaction. Security Investigators discovered that an unauthorized file was Installed, causing these generators to start at timed Intervals. Further, they determined this file was Installed during a visit by external engineers. What should Homer recommend to mitigate this threat In the future?
+A. Create an Internal CA.
+B. Implement WPA2 Enterprise.
+C. Implement patch management processes.
+D. Configure the SCADA within a VLAN.
+500034. Management wants to ensure that employees do not print any documents that Include customer or employee Pll. Which of the following solutions would meet this goal?
+A. HSM
+B. TPM
+C. VLAN
+D. DLP
+500035. A tech company recently discovered an attack on Its organization, resulting In a significant data breach of customer data. After Investigating the attack, they realized It was very sophisticated and likely originated from a foreign country. Which of the following Identifies the MOST likely threat actor In this attack?
+A. Hacktlvlst
+B. APT
+C. Competitors
+D. Insiders
+500036. A recent antivirus scan on a server detected a Trojan. A technician removed the Trojan, but a security administrator expressed concern that unauthorized personnel might be able to access data on the server. The security administrator decided to check the server further. Of the following choices, what Is the administrator MOST likely looking for on this server?
+A. Backdoor
+B. Logic bomb
+C. Rootkit
+D. Botnet
+500037. After Marge turned on her computer, she saw a message Indicating that unless she made a payment, her hard drive would be formatted. What does this Indicate?
+A. Keylogger
+B. Ransomware
+C. Backdoor
+D. Trojan
+500038. An organization's security policy requires employees to place all discarded paper documents in containers for temporary storage. These papers are later burned in an incinerator. Which of the following attacks are these actions MOST likely trying to prevent?
+A. Shoulder surfing
+B. Tailgating
+C. Vishing
+D. Dumpster diving
+500039. Users in your organization have reported receiving a similar email from the same sender.The email included a link, but after recent training on emerging threats, all the users chose not to click the link. Security investigators determined the link was malicious and was designed to download ransomware. Which of the following BEST describes the email?
+A. Phishing
+B. Spear phishing
+C. Spam
+D. Vishing
+500040. Your local library is planning to purchase new computers that patrons can use for Internet research. Which of the following are the BEST choices to protect these computers? (Select TWO.)
+A. Mantrap
+B. Anti-ma I ware software
+C. Cable locks
+D. Disk encryption
+500041. You are troubleshooting an intermittent connectivity issue with a web server. After examining the logs, you identify repeated connection attempts from various IP addresses. You realize these connection attempts are overloading the server, preventing it from responding to other connections. Which of the following is MOST likely occurring?
+A. DDoS attack
+B. DoS attack
+C. Amplification attack
+D. Salting attack
+500042. You are reviewing security controls and their usefulness. You notice that account lockout policies are in place. Which of the following attacks will these policies thwart? (Select TWO.)
+A. DNS poisoning
+B. Replay
+C. Brute force
+D. Buffer overflow
+E. Dictionary
+500043. Security analysts recently discovered that users in your organization are inadvertently installing malware on their systems after visiting the comptai.org web site. Users have a legitimate requirement to visit the comptia.org web site. Which of the following is the MOST likely explanation for this activity?
+A. Smurf
+B. Typo squatting
+C. Fuzzing
+D. Replay
+500044. An attacker recently attacked a web server hosted by your company. After investigation, security professionals determined that the attacker used a previously unknown application exploit. Which of the following BEST identifies this attack?
+A. Buffer overflow
+B. Zero-day attack
+C. Man-in-the-browser
+D. Session hijacking
+500045. While reviewing logs for a web application, a developer notices that it has crashed several times reporting a memory error. Shortly after it crashes, the logs show malicious code that isn't part of a known application. Which of the following is MOST likely occurring?
+A. Buffer overflow
+B. ARP poisoning
+C. Privilege escalation
+D. Replay
+500046. Management at your organization is planning to hire a development firm to create a sophisticated web application. One of their primary goals is to ensure that personnel involved with the project frequently collaborate with each other throughout the project. Which of the following is an appropriate model for this project?
+A. Waterfall
+B. SDLC
+C. Agile
+D. Secure DevOps
+500047. Your organization is preparing to deploy a web-based application, which will accept user input. Which of the following will BEST test the reliability of this application to maintain availability and data integrity?
+A. Model verification
+B. input validation
+C. Error handling
+D. Dynamic analysis
+500048. An attacker has launched several successful XSS attacks on a web application within your DMZ. Which of the following are the BEST choices to protect the web server and prevent this attack? (Select TWO.)
+A. Dynamic code analysis
+B. Input validation
+C. Code obfuscation
+D. WAF
+E. Normalization
+500049. Ziffcorp is developing a new technology that they expect to become a huge success when it's released. The CIO is concerned about someone stealing their company secrets related to this technoiogy. Which of the following will help the CIO identify potential dangers related to the loss of this technology?
+A. Threat assessment
+B. Vulnerability assessment
+C. Privacy threshold assessment
+D. Privacy impact assessment
+500050. You are performing a risk assessment and you need to calculate the average expected loss of an incident. Which of the following value combinations would you MOST likely use?
+A. ALE and ARO
+B. ALE and SLE
+C. SLE and ARO
+D. ARO and ROI
+500051. You recently completed a vulnerability scan on your network. It reported that several servers are missing key operating system patches. However, after checking the servers, you've verified the servers have these patches installed. Which of the following BEST describes this?
+A. False negative
+B. Misconfiguration on servers
+C. False positive
+D. Non-credentialed scan
+500052. You want to identify all the services running on a server in your network. Which of the following tools is the BEST choice to meet this goal?
+A. Penetration test
+B. Protocol analyzer
+C. Sniffer
+D. Port scanner
+500053. Lisa needs to identify if a risk exists within a web application and identify potential misconfigurations on the server. However, she should passively test the security controls. Which of the following is the BEST choice to meet her needs?
+A. Perform a penetration test.
+B. Perform a port scan.
+C. Perform a vulnerability scan.
+D. Perform traffic analysis with a sniffer.
+500054. A network administrator needs to identify the type of traffic and packet flags used in traffic sent from a specific IP address. Which of the following is the BEST tool to meet this need?
+A. SIEM
+B. Netcat
+C. Protocol analyzer
+D. Vulnerability scan
+500055. Lisa has been hired as a penetration tester by your organization to test the security of a web server. She wants to identify the operating system and get some information on services and applications used by the server. Which of the following tools will BEST meet this need?
+A. SIEM
+B. Netcat
+C. Tcpdump
+D. Gray box test
+500056. An organization wants to provide protection against malware attacks. Administrators have installed antivirus software on all computers. Additionally, they implemented a firewall and an IDS on the network. Which of the following BEST identifies this principle?
+A. Implicit deny
+B. Layered security
+C. Least privilege
+D. Flood guard
+500057. A security professional needs to identify a physical security control that will identify and authenticate individuals before allowing them to pass, and restrict passage to only a single person at a time. Which of the following should the professional recommend?
+A. Tailgating
+B. Smart cards
+C. Biometrics
+D. Mantrap
+500058. Your company's web site experiences a large number of client requests during certain times of the year. Which of the following could your company add to ensure the web site's availability during these times?
+A. Fail-open cluster
+B. Certificates
+C. Web application firewall
+D. Load balancing
+500059. Which of the following is the LOWEST cost solution for fault tolerance?
+A. Load balancing
+B. Round-robin scheduling
+C. RAID
+D. Warm site
+500060. Employees access a secure area by entering a cipher code, but this code does not Identify Individuals. After a recent security Incident, management has decided to Implement a key card system that will Identify individuals who enter and exit this secure area. However, the Installation might take six months or longer. Which of the following choices can the organization install Immediately to Identify Individuals who enter or exit the secure area?
+A. Mantrap
+B. Access list
+C. CCTV
+D. Bollards
+500061. An organization has decided to Increase the amount of customer data It maintains and use It for targeted sales. The privacy officer has determined that this data Is PH. Which type of assessment should be completed to ensure the organization Is complying with applicable laws and regulations related to this data?
+A. Privacy Impact assessment
+B. Privacy threshold assessment
+C. Threat assessment
+D. Supply chain assessment
+500062. A security technician runs an automated script every night designed to detect changes In files. Of the following choices, what are the MOST LIKELY protocols used In this script?
+A. PGP and SNA
+B. ECC and HMAC
+C. AES and Twofish
+D. SNA and HMAC
+500063. An application requires users to log on with passwords. The application developers want to store the passwords In such a way that It will thwart rainbow table attacks. Which of the following Is the BEST solution?
+A. SHA
+B. Blowfish
+C. ECC
+D. Bcrypt
+500064. Which of the following cryptography concepts Indicates that ciphertext Is significantly different than plaintext after It has been encrypted?
+A. Diffusion
+B. Obfuscatlon
+C. Collision
+D. Confusion
+500065. Your organization Is Investigating possible methods of sharing encryption keys over a public network. Which of the following Is the BEST choice?
+A. CRL
+B. PBKDF2
+C. Hashing
+D. ECDHE
+500066. An application developer is working on the cryptographic elements of an application. She needs to implement an encryption algorithm that provides both confidentiality and data authenticity. Which of the following cipher modes supports these goals?
+A. CTM
+B. CBC
+C. ECB
+D. GCM
+500067. An organization hosts several web servers in a web farm used for e-commerce. Due to recent attacks, management is concerned that attackers might try to redirect web site traffic, allowing the attackers to impersonate their e-commerce site. Which of the following methods will address this issue?
+A. Stapling
+B. Perfect forward secrecy
+C. Pinning
+D. Key stretching
+500068. Users within an organization frequently access public web servers using HTTPS. Management wants to ensure that users can verify that certificates are valid even if the public CAs are temporarily unavailable. Which of the following should be implemented to meet this need?
+A. OCSP
+B. CRL
+C. Private CA
+D. CSR
+500069. A security auditor discovered that several employees in the Accounting department can print and sign checks. In her final report, she recommended restricting the number of people who can print checks and the number of people who can sign them. She also recommended that no one should be authorized to print and sign checks. Which security policy does this describe?
+A. Discretionary access control
+B. Rule-based access control
+C. Separation of duties
+D. Job rotation
+500070. Your organization includes a software development division within the IT department. One developer writes and maintains applications for the Sales and Marketing departments. A second developer writes and maintains applications for the Payroll department. Once a year, they have to switch roles for at least a month. What is the purpose of this practice?
+A. To enforce a separation of duties policy
+B. To enforce a mandatory vacation policy
+C. To enforce a job rotation policy
+D. To enforce an acceptable use policy
+500071. Your organization is considering storage of sensitive data with a cloud provider. Your organization wants to ensure the data is encrypted while at rest and while in transit. Which typeof interoperability agreement can your organization use to ensure the data is encrypted while in transit?
+A. SLA
+B. SPA
+C. MOU
+D. ISA
+500072. You work as a help-desk professional in a large organization. You have begun to receive an extraordinary number of calls from employees related to malware. Using common incident response procedures, which of the following should be your FIRST response?
+A. Preparation
+B. Identification
+C. Eradication
+D. Recovery
+500073. An incident response team is following typical incident response procedures. Which of the following phases is the BEST choice for analyzing an incident with a goal of identifying steps to prevent a reoccurrence of the incident?
+A. Preparation
+B. Identification
+C. Eradication
+D. Lessons learned
+500074. You are helping your organization create a security policy for incident response. Which of the following choices is the BEST choice to include when an incident requires confiscation of a physical asset?
+A. Ensure hashes are taken first.
+B. Ensure witnesses sign an AUP.
+C. Maintain the order of volatility.
+D. Keep a record of everyone who took possession of the physical asset.
+500075. Security personnel confiscated a user's workstation after a security incident. Administrators removed the hard drive for forensic analysis, but left it unattended for several hours before capturing an image. Which of the following could prevent the company from taking the employee to court over this incident?
+A. Witnesses were not identified.
+B. A chain of custody was not maintained.
+C. An order of volatility was not maintained.
+D. A hard drive analysis was not complete.
+501001. You need to transmit Pll via email and you want to maintain its confidentiality. Which of the following choices is the BEST solution?
+A. Use hashes.
+B. Encrypt it before sending.
+C. Protect it with a digital signature.
+D. Use RAID.
+501002. Apu manages network devices in his store and maintains copies of the configuration files for all the managed routers and switches. On a weekly basis, he creates hashes for these files and compares them with hashes he created on the same files the previous week. Which of the following use cases is he MOST likely using?
+A. Supporting confidentiality
+B. Supporting integrity
+C. Supporting encryption
+D. Supporting availability
+501003. Louie hid several plaintext documents within an image file. He then sent the image file to Tony. Which of the following BEST describes the purpose of his actions?
+A. To support steganography
+B. To support integrity
+C. To support availability
+D. To support obfuscation
+501004. Management has mandated the use of digital signatures by all personnel within your organization. Which of the following use cases does this primarily support?
+A. Supporting confidentiality
+B. Supporting availability
+C. Supporting obfuscation
+D. Supporting non-repudiation
+501005. As the CTO, Marge is Implementing a security program. She has Included security controls to address confidentiality and availability. Of the following choices, what else should she Include?
+A. Ensure critical systems provide uninterrupted service.
+B. Protect data-ln-transit from unauthorized disclosure.
+C. Ensure systems are not susceptible to unauthorized changes.
+D. Secure data to prevent unauthorized disclosure.
+501006. Your organization wants to reduce the amount of money It Is losing due to thefts. Which of the following Is the BEST example of an equipment theft deterrent?
+A. Snapshots
+B. Cable locks
+C. Strong passwords
+D. Persistent VDI
+501007. Your organization Is considering virtuallzatlon solutions. Management wants to ensure that any solution provides the best ROI. Which of the following situations Indicates that virtuallzatlon would provide the best ROI?
+A. Most physical servers within the organization are currently utilized at close to 100 percent.
+B. The organization has many servers that do not require fallover services.
+C. Most desktop PCs require fast processors and a high amount of memory.
+D. Most physical servers within the organization are currently underutilized.
+501008. You are preparing to deploy a new application on a virtual server. The virtual server hosts another server application that employees routinely access. Which of the following Is the BEST method to use when deploying the new application?
+A. Take a snapshot of the VM before deploying the new application.
+B. Take a snapshot of the VM after deploying the new application.
+C. Ensure the server Is configured for non-persistence.
+D. Back up the server after Installing the new application.
+501009. Ned Is not able to access any network resources from his Linux-based computer. Which of the following commands would he use to view the network configuration of his system?
+A. Ifconfig
+B. Ipconfig
+C. netstat
+D. tracert
+501010. Administrators frequently create VMs for testing. They sometimes leave these running without using them again after they complete their tests. Which of the following does this describe?
+A. VM escape
+B. VDI snapshot
+C. VM sprawl
+D. Type II hypervlsor
+501011. Users within your organization access virtual desktops hosted on remote servers. This describes which of the following?
+A. VDE
+B. Snapshots for non-persistence
+C. Type I hypervisors
+D. VM sprawl
+501012. Your organization has implemented a VDI for most users. When a user logs off, the desktop reverts to its original state without saving any changes made by the user. Which of the following BEST describes this behavior?
+A. Container virtualization
+B. VM escape
+C. Non-persistence
+D. Elasticity
+501013. Which type of virtualization allows a computer's operating system kernel to run multiple isolated instances of a guest virtual machine, with each guest sharing the kernel?
+A. Container virtualization
+B. Type I hypervisor virtualization
+C. Type II hypervisor virtualization
+D. VDE
+501014. You are considering rebooting a database server and want to identify if it has any active networkconnections.Whichofthe following commands will list active network connections?
+A. arp
+B. ipconfig
+C. ping
+D. netstat
+501015. You have configured a firewall in your network to block ICMP traffic. You want to verify that it is blocking this traffic. Which of the following commands would you use?
+A. arp
+B. ipconfig
+C. netstat
+D. ping
+502001. Developers In your organization have created an application designed for the sales team. Salespeople can log on to the application using a simple password of 1234. However, this password does not meet the organization's password policy. Which of the following Is the BEST response by the security administrator after learning about this?
+A. Nothing. Strong passwords aren't required In applications.
+B. Modify the security policy to accept this password.
+C. Document this as an exception in the application's documentation.
+D. Direct the application team manager to ensure the application adheres to the organization's password policy.
+502002. Ned is reviewing password security for employees of The Leftorium.The password policy has the following settings; • The password maximum age is 30 days. • The password minimum length is 14 characters. • Passwords cannot be reused until five other passwords have been used. • Passwords must include at least one of each of the following four character types: uppercase letters, lowercase letters, numbers, and special characters. Ned discovers that despite having this password policy in place, users are still using the same password that they were using more than a month ago. Which of the following actions will resolve this issue?
+A. Create a rule in the password policy for the password minimum age to be 7 days.
+B. Change the password history to 10.
+C. Require the use of complex passwords.
+D. Change the maximum age setting to 60 days.
+502003. Your organization is planning to implement remote access capabilities. Management wants strong authentication and wants to ensure that passwords expire after a predefined time interval. Which of the following choices BEST meets this requirement?
+A. HOTP
+B. TOTP
+C. CAC
+D. Kerberos
+502004. Your organization has decided to implement a biometric solution for authentication. One of the goals is to ensure that the biometric system is highly accurate. Which of the following provides the BEST indication of accuracy with the biometric system?
+A. The lowest possible FRR
+B. The highest possible FAR
+C. The lowest possible CER
+D. The highest possible CER
+502005. Your organization recently updated an online application employees use to log on when working from home. Employees enter their username and password into the application from their smartphone and the application logs their location using GPS. Which type of authentication is being used?
+A. One-factor
+B. Dual-factor
+C. Something you are
+D. Somewhere you are
+502006. A network includes a ticket-granting ticket server used for authentication. Which authentication service does this network use?
+A. Shibboleth
+B. SAML
+C. LDAP
+D. Kerberos
+502007. Lisa Is a training instructor and she maintains a training lab with 18 computers. She has enough rights and permissions on these machines so that she can configure them as needed for classes. However, she does not have the rights to add them to the organization's domain. Which of the following choices BEST describes this example?
+A. Least privilege
+B. Need to know
+C. Group-based privileges
+D. Location-based policies
+502008. Marge is reviewing an organization's account management processes. She wants to ensure that security log entries accurately report the identity of personnel taking specific actions. Which of the following steps would BEST meet this requirement?
+A. Update ACLs for all files and folders.
+B. Implement role-based privileges.
+C. Use an SSO solution.
+D. Remove all shared accounts.
+502009. A recent security audit discovered several apparently dormant user accounts. Although users could log on to the accounts, no one had logged on to them for more than 60 days. You later discovered that these accounts are for contractors who work approximately one week every quarter. Which of the following is the BEST response to this situation?
+A. Remove the account expiration from the accounts.
+B. Delete the accounts.
+C. Reset the accounts.
+D. Disable the accounts.
+502010. Members of a project team chose to meet at a local library to complete some work on a key project. All of them are authorized to work from home using a VPN connection and have connected from home successfully. However, they found that they were unable to connect to the network using the VPN from the library and they could not access any of the project data. Which of the following choices is the MOST likely reason why they can't access this data?
+A. Role-based access control
+B. Time-of-day access control
+C. Location-based policy
+D. Discretionary access control
+502011. You need to create an account for a contractor who will be working at your company for 60 days. Which of the following is the BEST security step to take when creating this account?
+A. Configure history on the account.
+B. Configure a password expiration date on the account.
+C. Configure an expiration date on the account.
+D. Configure complexity.
+502012. A company recently hired you as a security administrator. You notice that some former accounts used by temporary employees are currently enabled. Which of the following choices is the BEST response?
+A. Disable all the temporary accounts.
+B. Disable the temporary accounts you've noticed are enabled.
+C. Craft a script to identify inactive accounts based on the last time they logged on.
+D. Set account expiration dates for all accounts when creating them.
+502013. Developers are planning to develop an application using role-based access control. Which of the following would they MOST likely include in their planning?
+A. A listing of labels reflecting classification levels
+B. A requirements list identifying need to know
+C. A listing of owners
+D. A matrix of functions matched with their required privileges
+502014. A security administrator needs to implement an access control system that will protect data based on the following matrix: Document Type: Employment documents, Security Level: Private, Security Label: Employee; Document Type: Salary and compensation documents, Security Level: Private, Security Label: Payroll; Document Type: Internal phone listing documents, Security Level: Private, Security Label: Employee; (Note that this matrix only represents a subset of the overall requirements.) Which of the following models is the administrator implementing?
+A. DAC
+B. MAC
+C. Role-BAC
+D. ABAC
+502015. Your organization is implementing an SDN. Management wants to use an access control model that controls access based on attributes. Which of the following is the BEST solution?
+A. DAC
+B. MAC
+C. Role-BAC
+D. ABAC
+503001. Your organization's security policy requires that Pll data-in-transit must be encrypted. Which of the following protocols would BEST meet this requirement?
+A. FTP
+B. SSH
+C. SMTP
+D. HTTP
+503002. Marge needs to collect network device configuration information and network statistics from devices on the network. She wants to protect the confidentiality of credentials used to connect to these devices. Which of the following protocols would BEST meet this need?
+A. SSH
+B. FTPS
+C. SNMPvS
+D. TLS
+503003. Lisa is enabiing NTP on some servers within the DMZ. Which of the following use cases is she MOST likely supporting with this action?
+A. Support voice and video transmissions
+B. Provide time synchronization
+C. Enable email usage
+D. Encrypt data-in-transit
+503004. Your organization wants to increase security for VoIP and video teleconferencing applications used within the network. Which of the following protocols will BEST support this goal?
+A. SMTP
+B. TLS
+C. SFTP
+D. SRTP
+503005. Management within your organization wants to ensure that switches are not susceptible tobswitching loop problems. Which of the following protocols is the BEST choice to meet this need?
+A. Flood guard
+B. SNMPV3
+C. SRTP
+D. RSTP
+503006. A network technician incorrectly wired switch connections in your organization's network. It effectively disabled the switch as though it was a victim of a denial-of-service attack. Which of the following should be done to prevent this situation in the future?
+A. Install an IDS.
+B. Only use Layer 2 switches.
+C. Install SNMPv3 on the switches. D. Implement SIP or RSTP.
+503007. Developers recently configured a new service on ServerA. ServerA is in a DMZ and accessed by internal users and via the Internet. Network administrators modified firewall rules to access the service. Testing shows the service works when accessed from internal systems. However, it does not work when accessed from the Internet. Which of the following is MOST likely configured incorrectly?
+A. The new service
+B. An ACL
+C. ServerA
+D. TheVLAN
+503008. You manage a Linux computer used for security within your network. You plan to use it to inspect and handle network-based traffic using iptables. Which of the following network devices can this replace?
+A. Wireless access point
+B. Firewall
+C. Layer 2 switch
+D. Bridge
+503009. You need to implement anti-spoofing on a border router. Which one of the following choices will BEST meet this goal?
+A. Create rules to block all outgoing traffic from a private IP address. B. Implement a flood guard on switches.
+C. Add a web application firewall.
+D. Create rules to block all incoming traffic from a private IP address.
+503010. An organization has recently had several attacks against servers within a DMZ. Security administrators discovered that many of these attacks are using TCP, but they did not start with a three-way handshake. Which of the following devices provides the BEST solution?
+A. Stateless firewall
+B. Stateful firewall
+C. Network firewall
+D. Application-based firewall
+503011. Which type of device would have the following entries used to define its operation? permit IP any any eq 80 permit IP any any eq 443 deny IP any any
+A. Firewall
+B. Layer 2 switch
+C. Proxy server
+D. Web server
+503012. Your organization hosts a web server and wants to increase its security. You need to separate all web-facing traffic from internal network traffic. Which of the following provides the BEST solution?
+A. DMZ
+B. VLAN
+C. Firewall
+D. WAF
+503013. Management at your organization wants to prevent employees from accessing social media sites using company-owned computers. Which of the following devices would you implement?
+A. Transparent proxy
+B. Reverse proxy
+C. Nontransparent proxy
+D. Caching proxy
+503014. You need to configure a UTM security appliance to restrict traffic going to social media sites. Which of the following are you MOST likely to configure?
+A. Content inspection
+B. Malware inspection
+C. URL filter
+D. DDoS mitigator
+503015. Your organization recently purchased a sophisticated security appliance that includes a DDoS mitigator. Where should you place this device?
+A. Within the DMZ
+B. At the border of the network, between the intranet and the DMZ
+C. At the border of the network, between the private network and the Internet
+D. In the internal network
+504001. You are preparing to deploy a heuristic-based detection system to monitor network activity. Which of the following would you create first?
+A. Flood guards
+B. Signatures
+C. Baseline
+D. Honeypot
+504002. Attackers have recently launched several attacks against servers in your organization's DMZ. You are tasked with identifying a solution that will have the best chance at preventing these attacks in the future. Which of the following is the BEST choice?
+A. An out-of-band IPS B. An in-band IPS
+C. A passive IDS
+D. An out-of-band IDS
+504003. Lisa oversees and monitors processes at a water treatment plant using SCADA systems. Administrators recently discovered malware on her system that was connecting to the SCADA systems. Although they removed the malware, management is still concerned. Lisa needs to continue using her system and it's not possible to update the SCADA systems. Which of the following can mitigate this risk?
+A. Install HIPS on the SCADA systems.
+B. Install a firewall on the border of the SCADA network.
+C. Install a NIPS on the border of the SCADA network.
+D. Install a honeypot on the SCADA network.
+504004. Which of the following BEST describes a false negative?
+A. An IDS falsely indicates a buffer overflow attack occurred.
+B. Antivirus software reports that a valid application is malware.
+C. A heuristic-based IDS detects a previously unknown attack.
+D. An IDS does not detect a buffer overflow attack.
+504005. Your wireless network includes one centralized AP that you configure. This AP forwards the configuration to other APs in your wireless network. Which of the following BEST describes these APs?
+A. The centralized AP is a stand-alone AP and it configures fat APs in your network.
+B. The centralized AP is a thin AP and it configures fat APs in your network.
+C. The centralized AP is a controller-based AP and it configures stand-alone APs in your network.
+D. The centralized AP is a fat AP and it configures thin APs in your network.
+504006. You need to provide connectivity between two buildings without running any cables. You decide to use two 802.11ac APs to provide wireless connectivity between the buildings. Which of the following is the BEST choice to support this need?
+A. Use omnidirectional antennas on both APs.
+B. Use wide channels.
+C. Use the 2.4 GHz frequency band.
+D. Use directional antennas on both APs.
+504007. You want to implement the STRONGEST level of security on a wireless network. Which of the following supports this goal?
+A. Implementing WPA with TKIP
+B. Disabling SSID broadcast
+C. Enabling MAC filtering
+D. Implementing WPA2 with CCMP
+504008. Your organization is planning to implement a wireless network using WPA2 Enterprise. Of the following choices, what is required?
+A. An authentication server with a digital certificate installed on the authentication server
+B. An authentication server with DHCP installed on the authentication server
+C. An authentication server with DNS installed on the authentication server
+D. An authentication server with WEP running on the access point
+504009. A security administrator is testing the security of an AR The AP is using WPA2. She ran an automated program for several hours and discovered the AP's passphrase. Which of the following methods was she MOST likely using?
+A. IV attack
+B. Disassociation attack
+C. WPS attack
+D. Evil twin attack
+504010. Your wireless network name is myoffice. You disabled the SSID broadcast several days ago. Today, you notice that a wireless network named myoffice is available to wireless users. You verified that SSID broadcast is still disabled. Which of the following is the MOST likely reason for this behavior?
+A. Evil twin attack
+B. Disassociation attack
+C. WPS attack
+D. Jamming attack
+504011. Mobile users in your network report that they frequently lose connectivity with the wireless network on some days, but on other days they don't have any problems. You suspect this is due to an attack. Which of the following attacks is MOST likely causing this problem?
+A. Wireless jamming
+B. IV
+C. Replay
+D. Bluesnarfing
+504012. Management within your organization wants some users to be able to access internal network resources from remote locations. Which of the following is the BEST choice to meet this need?
+A. NAC
+B. VPN
+C. IDS
+D. IPS
+504013. Your organization is planning to implement a VPN. They want to ensure that after a VPN client connects to the VPN server, all traffic from the VPN client is encrypted. Which of the following would BEST meet this goal?
+A. Split tunnel
+B. Full tunnel
+C. IPsec using Tunnel mode
+D. IPsec using Transport mode
+504014. You are tasked with configuring authentication services settings on computers in your network. You are entering shared secrets on different servers. Which of the following services are you MOST likely configuring? (Select TWO.)
+A. RADIUS
+B. Kerberos
+C. LDAP
+D. EAP-TLS
+504015. Your organization recently implemented a BYOD policy. However, management wants to ensure that mobile devices meet minimum standards for security before they can access any network resources. Which of the following agents would the MAC MOST likely have?
+A. Permanent
+B. Health
+C. RADIUS
+D. Dissolvable
+505001. Attackers recently attacked a web server hosted by your organization. Management has tasked administrators with configuring the servers following the principle of least functionality. Which of the following will meet this goal?
+A. Disabling unnecessary services
+B. Installing and updating antivirus software
+C. Identifying the baseline D. Installing a NIDS
+505002. Network administrators have Identified what appears to be malicious traffic coming from an internal computer, but only when no one is logged on to the computer. You suspect the system is infected with malware. It periodically runs an application that attempts to connect to web sites over port 80 with Telnet. After comparing the computer with a list of applications from the master image, you verify this application is very likely the problem. What allowed you to make this determination?
+A. Least functionality
+B. Sandbox
+C. Blacklist
+D. Integrity measurements
+505003. Security experts want to reduce risks associated with updating critical operating systems. Which of the following will BEST meet this goal?
+A. Implement patches when they are released.
+B. Implement a change management policy.
+C. Use only trusted operating systems.
+D. Implement operating systems with secure configurations.
+505004. Your organization wants to ensure that employees do not install any unauthorized software on their computers. Which of the following is the BEST choice to prevent this?
+A. Master image
+B. Application whitelisting
+C. Anti-malware software
+D. Antivirus software
+505005. A software vendor recently developed a patch for one of its applications. Before releasing the patch to customers, the vendor needs to test it in different environments. Which of the following solutions provides the BEST method to test the patch in different environments?
+A. Baseline image
+B. BYOD
+C. Sandbox
+D. Change management
+505006. Managers within your organization want to implement a secure boot process for some key computers. During the boot process, each computer should send data to a remote system to check the computer's configuration. Which of the following will meet this goal?
+A. Trusted Platform Module B. Hardware root of trust
+C. Remote attestation □.Trusted operating system
+505007. The Springfield Nuclear Power Plant has created an online application teaching nuclear physics. Only students and teachers in the Springfield Elementary school can access this application via the cloud. What type of cloud service model is this?
+A. laaS
+B. PaaS
+C. SaaS
+D. P u b l i c
+505008. An organization has a critical SCADA network it is using to manage a water treatment plant for a large city. Availability of this system is important. Which of the following security controls would be MOST relevant to protect this system?
+A. DLP
+B. TPM
+C. EMP
+D. NIPS
+505009. Bizzfad is planning to implement a CYOD deployment model. You're asked to provide input for the new policy. Which of the following concepts are appropriate for this policy?
+A. SCADA access
+B. Storage segmentation
+C. Database security
+D. Embedded RTOS
+505010. A new mobile device security policy has authorized the use of employee-owned devices, but mandates additional security controls to protect them if they are lost or stolen. Which of the following meets this goal?
+A. Screen locks and GPS tagging
+B. Patch management and change management
+C. Screen locks and device encryption
+D. Full device encryption and laaS
+505011. Management within your company wants to restrict access to the Bizz app from mobile devices. If users are within the company's property, they should be granted access. If they are not within the company's property, their access should be blocked. Which of the following answers provides the BEST solution to meet this goal?
+A. Geofencing
+B. Geolocation
+C. GPS tagging
+D. Containerization
+D. Full device encryption and laaS
+505012. Management within your company wants to Implement a method that will authorize employees based on several elements, Including the employee's identity, location, time of day, and type of device used by the employee. Which of the following will meet this need?
+A. Geofence
+B. Containerization
+C. Tethering
+D. Context-aware authentication
+D. Full device encryption and laaS
+505013. Lisa does not have access to the projectdoc file, but she needs access to this file for her job. Homer Is the system administrator and he has identified the following permissions for the file: rwx rw—  What should Homer use to grant Lisa read access to the file?
+A. The chmod command
+B. A remote wipe
+C. Push notification
+D. The chroot command
+D. Full device encryption and laaS
+505014. Management within your organization wants to prevent users from copying documents to USB flash drives. Which of the following can be used to meet this goal?
+A. DLP
+B. HSM
+C. COPE
+D. SED
+D. Full device encryption and laaS
+505015. Your organization hosts a web site with a back-end database. The database stores customer data, Including credit card numbers. Which of the following Is the BEST way to protect the credit card data?
+A. Full database encryption
+B. Whole disk encryption
+C. Database column encryption
+D. File-level encryption
+506001. The Marvin Monroe Memorial Hospital recently suffered a serious attack. The attackers notified management personnel that they encrypted a significant amount of data on the hospital's servers and it would remain encrypted until the management paid a hefty sum to the attackers. Which of the following identifies the MOST likely threat actor in this attack?
+A. Organized crime
+B. Ransomware
+C. Competitors
+D. Hacktivist
+506002. Dr.Terwilliger installed code designed to enable his account automatically if he ever lost his job as a sidekick on a television show.The code was designed to reenable his account three days after it is disabled. Which of the following does this describe?
+A. Logic bomb
+B. Rootkit
+C. Spyware
+D. Ransomware
+506003. Lisa recently developed an application for the Human Resources department. Personnel use this application to store and manage employee data, including Pll. She programmed in the ability to access this application with a username and password that only she knows, so that she can perform remote maintenance on the application if necessary. Which of the following does this describe? A. Virus
+B. Worm
+C. Backdoor
+D.Trojan
+506004. Dr. Terwilliger installed code designed to run if he ever lost his job as a sidekick on a television show. The code will create a new account with credentials that only he knows three days after his original account is deleted. Which type of account does this code create?
+A. Backdoor
+B. Logic bomb
+C. Rootkit
+D. Ransomware
+506005. Security administrators recently discovered suspicious activity within your network. After investigating the activity, they discovered malicious traffic from outside your network connecting to a server within your network. They determined that a malicious threat actor used this connection to install malware on the server and the malware is collecting data and sending it out of the network. Which of the following BEST describes the type of malware used by the threat actor?
+A. APT
+B. Organized crime
+C. RAT
+D. Crypto-malware
+506006. A security administrator recently noticed abnormal activity on a workstation. It is connecting to systems outside the organization's internal network using uncommon ports. The administrator discovered the computer is also running several hidden processes. Which of the following choices BEST describes this activity?
+A. Rootkit
+B. Backdoor
+C. Spam
+D. Trojan
+506007. Lisa is a database administrator and received a phone call from someone identifying himself as a technician working with a known hardware vendor. The technician said he's aware of a problem with database servers they've sold, but it only affects certain operating system versions. He asks Lisa what operating system the company is running on their database servers. Which of the following choices Is the BEST response from Lisa?
+A. Let the caller know what operating system and versions are running on the database servers to determine if any further action is needed.
+B. Thank the caller and end the call, report the call to her supervisor, and independently check the vendor for issues.
+C. Ask the caller for his phone number so that she can call him back after checking the servers.
+D. Contact law enforcement personnel.
+506008. Bart is in a break area outside the office. He told Lisa that he forgot his badge inside and asked Lisa to let him follow her when she goes back inside. Which of the following does this describe?
+A. Spear phishing
+B. Whaling
+C. Mantrap
+D. Tallgating
+506009. While cleaning out his desk, Bart threw several papers containing Pll Into the recycle bin. Which type of attack can exploit this action?
+A. Vishing
+B. Dumpster diving
+C. Shoulder surfing
+D. Tallgating
+506010. Your organization recently suffered a loss from malware that wasn't previously known by any trusted sources. Which of the following BEST describes this attack?
+A. Phishing
+B. Zero-day
+C. Open-source intelligence
+D. Hoax
+506011. A recent change in an organization's security policy states that monitors need to be positioned so that they cannot be viewed from outside any windows. Additionally, users are directed to place screen filters over the monitor. What is the purpose of this policy?
+A. Reduce success of phishing
+B. Reduce success of shoulder surfing
+C. Reduce success of dumpster diving
+D. Reduce success of impersonation
+506012. Attackers recently sent some malicious emails to the CFO within your organization. These emails have forged From blocks and look like they are coming from the CEO of the organization. They include a PDF file that is described as a funding document for an upcoming project. However, the PDF is infected with malware. Which of the following BEST describes the attack type in this scenario?
+A. Phishing
+B. Spam
+C. Trojan
+D. Whaling
+506013. A recent spear phishing attack that appeared to come from your organization's CEO resulted in several employees revealing their passwords to attackers. Management wants to implement a security control to provide assurances to employees that email that appears to come from the CEO actually came from the CEO. Which of the following should be implemented?
+A. Digital signatures
+B. Spam filter
+C. Training
+D. Heuristic-based detection
+506014. A recent attack on your organization's network resulted in the encryption of a significant amount of data. Later, an attacker demanded that your organization pay a large sum of money to decrypt the data. Security investigators later determined that this was the result of a new employee within your company clicking on a malicious link he received in an email. Which of the following BEST describes the vulnerability in this scenario?
+A. Ransomware
+B. Untrained user
+C. Resource exhaustion
+D. Insider threat
+506015. The CEO of a company recently received an email. The email indicates that her company is being sued and names her specifically as a defendant in the lawsuit. It includes an attachment and the email describes the attachment as a subpoena. Which of the following BEST describes the social engineering principle used by the sender in this scenario?
+A. Whaling
+B. Phishing
+C. Consensus
+D. Authority
+507001. Attackers have launched an attack using multiple systems against a single target. Which type of attack is this?
+A. DoS
+B. DDoS
+C. SYN flood
+D. Buffer overflow
+507002. An attacker has captured a database filled with hashes of randomly generated passwords. Which of the following attacks is MOST likely to crack the largest number of passwords in this database?
+A. Dictionary attack
+B. Birthday attack
+C. Brute force attack
+D. Rainbow tables
+507003. An application stores user passwords in a hashed format. Which of the following can decrease the likelihood that attackers can discover these passwords?
+A. Rainbow tables
+B. MD5
+C. Salt
+D. Input validation
+507004. An attacker has been analyzing encrypted data that he intercepted. He knows that the end of the data includes a template sent with all similar messages. He uses this knowledge to decrypt the message. Which of the following types of attacks BEST describes this attack?
+A. Known ciphertext
+B. Known plaintext
+C. Brute force
+D. Rainbow table
+507005. An attacker is attempting to write more data into a web application's memory than it can handle. Which type of attack is this?
+A. XSRF
+B. DLL injection
+C. Pass the hash
+D. Buffer overflow
+507006. Management at your organization is planning to hire a development firm to create a sophisticated web application. One of their primary goals is to ensure that personnel involved with the project frequently collaborate with each other throughout the project. Which of the following is an appropriate model for this project?
+A. Waterfall
+B. SDLC
+C. Agile
+D. Secure DevOps
+507007. A web developer is adding input validation techniques to a web site application. Which of the following should the developer implement during this process?
+A. Perform the validation on the server side.
+B. Perform the validation on the client side.
+C. Prevent boundary checks.
+D. Implement pointer dereference techniques.
+507008. Developers have created an application that users can download and install on their computers. Management wants to provide users with a reliable method of verifying that the application has not been modified. Which of the following methods provides the BEST solution?
+A. Code signing
+B. Input validation
+C. Code obfuscation
+D. Stored procedures
+507009. Your organization is preparing to deploy a web-based application, which will accept user input. Which of the following will BEST test the reliability of this application to maintain availability and data integrity?
+A. Model verification
+B. Input validation
+C. Error handling
+D. Dynamic analysis
+507010. You are overseeing a large software development project. Ideally, developers will not add any unauthorized changes to the code. If they do, you want to ensure that it is easy to identify the developer who made the change. Which of the following provides the BEST solution for this need?
+A. Agile SDLC
+B. Version control
+C. Secure DevOps
+D. Static code analysis
+507011. Database administrators have created a database used by a web application. However, testing shows that the application is taking a significant amount of time accessing data within the database. Which of the following actions is MOST likely to improve the overall performance of a database?
+A. Normalization
+B. Client-side input validation
+C. Server-side input validation
+D. Obfuscation
+507012. Looking at logs for an online web application, you see that someone has entered the following phrase into several queries: 'or'1'='l'~ Which of the following is the MOST likely explanation for this?
+A. A buffer overflow attack
+B. An XSS attack
+C. A SQL injection attack
+D. A DLL injection attack
+507013. While creating a web application, a developer adds code to limit data provided by users.The code prevents users from entering special characters. Which of the following attacks will this code MOST likely prevent?
+A. Man-in-the-browser
+B. Amplification
+C. XSS
+D. Domain hijacking
+507014. Homer recently received an email thanking him for a purchase that he did not make. He asked an administrator about it and the administrator noticed a pop-up window, which included the following code: <body onload="document.getElementBylD{'myform').submit()"> <form id="myForm"action="gcgapremium.com/purchase.php"method="post" <input name="Buy Now"value="Buy Now"/> </form> </body> Which of the following is the MOST likely explanation?
+A. XSRF
+B. Buffer overflow
+C. SQL injection
+D. Dead code
+507015. Your organization recently purchased a new hardware-based firewall. Administrators need to install it as part of a DMZ within the network. Which of the following references will
+provide them with the MOST appropriate instructions to install the firewall?
+A. A regulatory framework
+B. A non-regulatory framework
+C. A general-purpose firewall guide
+D. A vendor-specific guide
+508001. A security expert is performing a risk assessment. She is seeking information to identify the number of times a specific type of incident occurs per year. Which of the following BEST identifies this?
+A. ALE
+B. ARO
+C. SLE
+D. WORM
+508002. Lisa needs to calculate the ALE for a group of servers used in the network. During the past two years, five of the servers failed. The hardware cost to repair or replace each server was $3,500 and the downtime resulted in $2,500 of additional losses for each outage. What is the ALE?
+A. $7,000
+B. $8,000
+C. $15,000
+D. $30,000
+508003. Martin is performing a risk assessment on an e-commerce web server. While doing so, he created a document showing all the known risks to this server, along with the risk score for each risk. What is the name of this document?
+A. Quantitative risk assessment
+B. Qualitative risk assessment
+C. Residual risk
+D. Risk register
+508004. Your organization includes an e-commerce web site used to sell digital products. You are tasked with evaluating all the elements used to support this web site. What are you performing?
+A. Quantitative assessment
+B. Qualitative assessment C. Threat assessment
+D. Supply chain assessment
+508005. A penetration tester is running several tests on a server within your organization's DMZ. The tester wants to identify the operating system of the remote host. Which of the following tools or methods are MOST likely to provide this information?
+A. Banner grabbing
+B. Vulnerability scan
+C. Password cracker
+D. Protocol analyzer
+508006. You need to perform tests on your network to identify missing security controls. However, you want to have the least Impact on systems that users are accessing. Which of the following tools Is the BEST to meet this need?
+A. A syn stealth scan
+B. Vulnerability scan
+C. Ping scan
+D. Penetration test
+508007. You periodically run vulnerability scans on your network, but have been receiving many false positives. Which of the following actions can help reduce the false positives?
+A. Run the scans as credentlaled scans.
+B. Run the scans as non-credentlaled scans.
+C. Run the scans using passive reconnaissance.
+D. Run the scans using active reconnaissance.
+508008. Your organization has a legacy server running within the DMZ. It Is running older software that Is not compatible with current patches, so management has decided to let It remain unpatched. Management wants to know If attackers can access the Internal network If they successfully compromise this server. Which of the following is the MOST appropriate action?
+A. Perform a vulnerability scan.
+B. Perform a port scan.
+C. Perform a black box test.
+D. Perform a penetration test.
+508009. A penetration tester has successfully attacked a single computer within the network. The tester Is now attempting to access other systems within the network via this computer. Which of the following BEST describes the tester's current actions?
+A. Performing reconnaissance
+B. Performing the Initial exploitation
+C. Pivoting
+D. Escalating privileges
+508010. You are troubleshooting Issues between two servers on your network and need to analyze the network traffic. Of the following choices, what Is the BEST tool to capture and analyze this traffic?
+A. Network mapper
+B. Protocol analyzer
+C. Network scanner
+D. SIEM
+508011. A penetration tester Is tasked with gaining Information on one of your Internal servers and he enters the following command: "$ echo "" I nc -vv -n -w1 72.52.206.134 80" What Is the purpose-of this command?
+A. Identify If a server Is running a service using port 80 and Is reachable.
+B. Launch an attack on a server sending 80 separate packets In a short period of time.
+C. Use Netcat to remotely administer the server.
+D. Use Netcat to start an RDP session on the server.
+508012. You suspect that an attacker has been sending specially crafted TCP packets to a server trying to exploit a vulnerability. You decide to capture TCP packets being sent to this server for later analysis and you want to use a command-line tool to do so. Which of the following tools will BEST meet your need?
+A. WIredump
+B. Tcpdump
+C. Netcat
+D. Nmap
+508013. You suspect someone has been trying a brute force password attack on a Linux system. Which of the following logs should you check to view failed authentication attempts by users?
+A. /var/log/btmp
+B. /var/log/fall
+C. var/log/httpd
+D. /var/log/kern
+508014. An organization has a large network with dozens of servers. Administrators are finding It difficult to review and analyze the logs from all the network devices. They are looking for a solution to aggregate and correlate the logs. Which of the following choices BEST meets this need?
+A. Nmap
+B. Netcat
+C. WIreshark
+D. SIEM
+508015. Lisa has recently transferred from the HR department to payroll. While browsing file shares, Lisa notices she can access the HR files related to her new coworkers. Which of the following could prevent this scenario from occurring?
+A. Permission auditing and review
+B. Continuous monitoring
+C. Vulnerability scan
+D. Penetration testing
+509001. After a recent attack on your organization's network, the CTO is insisting that the DMZ uses two firewalls and they are purchased from different companies. Which of the following BEST describes this practice?
+A. Single-layer security
+B. Vendor diversity
+C. Control diversity
+D. Redundancy
+509002. Management within your organization wants to create a small network used by executives only. They want to ensure that this network is completely isolated from the main network. Which of the following choices BEST meets this need?
+A. Airgap
+B. Mantrap
+C. Control diversity
+D. Infrared motion detectors
+509003. A security professional has reported an increase in the number of tailgating violations into a secure data center. Which of the following can prevent this?
+A. CCTV
+B. Mantrap
+C. Proximity card
+D. Cipher lock
+509004. Lisa is the new chief technology officer (CTO) at your organization. She wants to ensure that critical business systems are protected from isolated outages. Which of the following would let her know how often these systems will experience outages?
+A. MTTR
+B. MTBF
+C. RTO
+D. RPO
+509005. Thieves recently rammed a truck through the entrance of your company's main building. During the chaos, their partners proceeded to steal a significant amount of IT equipment. Which of the following choices can you use to prevent this from happening again?
+A. Bollards
+B. Guards
+C. CCTV
+D. Mantrap
+509006. You are a technician at a small organization. You need to add fault-tolerance capabilities within the business to increase the availability of data. However, you need to keep costs as low as possible. Which of the following is the BEST choice to meet these needs?
+A. Alternate processing site
+B. RAID-10
+C. Backups
+D. Faraday cage
+509007. Flancrest Enterprises recently set up a web site utilizing several web servers in a web farm. The web farm spreads the load among the different web servers. Visitor IP addresses are used to ensure that clients always return to the same server during a web session. Which of the following BEST describes this configuration?
+A. Affinity
+B. Round-robin
+C. Virtual IP
+D. Active-passive
+509008. Your organization is planning to deploy a new e-commerce web site. Management anticipates heavy processing requirements for a back-end application. The current design will use one web server and multiple application servers. Which of the following BEST describes the application servers?
+A. Load balancing
+B. Clustering
+C. RAID
+D. Affinity scheduling
+509009. Flancrest Enterprises recently set up a web site utilizing several web servers in a web farm. The web farm spreads the load among the different web servers by sending the first request to one server, the next request to the second server, and so on. Which of the following BEST describes this configuration?
+A. Affinity
+B. Round-robin
+C. Airgap
+D. Mantrap
+509010. Flancrest Enterprises recently set up a web site utilizing several web servers in a web farm.The web servers access a back-end database. The database is hosted by a database application configured on two database servers. Web servers can access either of the database servers. Which of the following BEST describes the configuration of the database servers?
+A. Active-passive
+B. Round-robin
+C. Affinity
+D. Active-active
+509011. Your organization has decided to increase the amount of customer data it maintains and use it for targeted sales. However, management is concerned that they will need to comply with existing laws related to Pll. Which of the following should be completed to determine if the customer data is Pll?
+A. Privacy threshold assessment
+B. Privacy impact assessment
+C. Tabletop exercise
+D. Affinity scheduling
+509012. Your backup policy for a database server dictates that the amount of time needed to perform backups should be minimized. Which of the following backup plans would BEST meet this need?
+A. Full backups on Sunday and full backups on the other six days of the week
+B. Full backups on Sunday and differential backups on the other six days of the week
+C. Full backups on Sunday and incremental backups on the other six days of the week
+D. Differential backups on Sunday and incremental backups on the other six days of the week
+509013. You are helping implement your company's business continuity plan. For one system, the plan requires an RIO of five hours and an RPO of one day. Which of the following would meet this requirement?
+A. Ensure the system can be restored within five hours and ensure it does not lose more than one day of data.
+B. Ensure the system can be restored within one day and ensure it does not lose more than five hours of data.
+C. Ensure the system can be restored between five hours and one day after an outage.
+D. Ensure critical systems can be restored within five hours and noncritical systems can be restored within one day.
+509014. A security analyst is creating a document that includes the expected monetary loss from a major outage. She is calculating the potential impact on life, property, finances, and the organization's reputation. Which of the following documents is she MOST likely creating?
+A. BCP
+B. BIA
+C. MTBF
+D. RPO
+509015. A security expert at your organization is leading an on-site meeting with key disaster recovery personnel. The purpose of the meeting is to perform a test. Which of the following BEST describes this test?
+A. Functional exercise
+B. Full-blown test
+C. Tabletop exercise
+D. Simulation to perform steps of a plan
+510001. Bart recently sent out confidential data via email to potential competitors. Management suspects he did so accidentally, but Bart denied sending the data. Management wants to implement a method that would prevent Bart from denying accountability in the future. Which of the following are they trying to enforce?
+A. Confidentiality
+B. Encryption
+C. Access control
+D. Non-repudiation
+510002. A software company occasionally provides application updates and patches via its web site. It also provides a checksum for each update and patch. Which of the following BEST describes the purpose of the checksum?
+A. Availability of updates and patches
+B. Integrity of updates and patches
+C. Confidentiality of updates and patches
+D. Integrity of the application
+510003. A one-way function converts data into a string of characters. It is not possible to convert this string of characters back to the original state. What type of function is this?
+A. Symmetric encryption
+B. Asymmetric encryption
+C. Stream cipher
+D. Hashing
+510004. An application developer is working on the cryptographic elements of an application. Which of the following cipher modes should NOT be used in this application?
+A. CBC
+B. CTM
+C. ECB
+D. GCM
+510005. The following text shows the ciphertext result of encrypting the word "passed" with an uppercase P and a lowercase p: • Passed!—xnBKcndl+25mHjnafwi6Jw • passed!—RqMbHJqLdPE3RCuUU17FtA  Which of the following BEST describes the cryptography concept demonstrated by comparing the resulting ciphertext of both words?
+A. Confusion
+B. Diffusion
+C. Key stretching
+D. Security through obscurity
+510006. Which of the following is a symmetric encryption algorithm that encrypts data 1 bit at a time?
+A. Block cipher
+B. Stream cipher
+C. AES
+D. DES
+E. MD5
+510007. A supply company has several legacy systems connected within a warehouse. An external security audit discovered the company is using DES for data-at-rest. It mandated the company upgrade DES to meet minimum security requirements. The company plans to replace the legacy systems next year, but needs to meet the requirements from the audit. Which of the following is MOST likely to be the simplest upgrade for these systems?
+A. S/MIME
+B. HMAC
+C. 3DES
+D. TLS
+510008. Bart wants to send a secure email to Lisa, so he decides to encrypt it Bart wants to ensure that Lisa can verify that he sent it. Which of the following does Lisa need to meet this requirement?
+A. Bart's public key
+B. Bart's private key
+C. Lisa's public key
+D. Lisa's private key
+510009. Bart wants to send a secure email to Lisa, so he decides to encrypt it He wants to ensure that only Lisa can decrypt it Which of the following does Lisa need to decrypt Bart's email?
+A. Bart's public key
+B. Bart's private key
+C. Lisa's public key
+D. Lisa's private key
+510010. An organization requested bids for a contract and asked companies to submit their bids via email. After winning the bid, Acme realized it couldn't meet the requirements of the contract. Acme instead stated that it never submitted the bid. Which of the following would provide proof to the organization that Acme did submit the bid?
+A. Digital signature
+B. Integrity
+C. Repudiation
+D. Encryption
+510011. Application developers are creating an application that requires users to log on with strong passwords. The developers want to store the passwords in such a way that it will thwart brute force attacks. Which of the following is the BEST solution?
+A. 3DES
+B. MD5
+C. PBKDF2
+D. Database fields
+510012. Administrators have noticed a significant amount of OCSP traffic sent to an intermediate CA. They want to reduce this traffic. Which of the following is the BEST choice to meet this need?
+A. Pinning
+B. Digital signatures
+C. Stapling
+D. Hashing
+510013. A web site is using a certificate. Users have recently been receiving errors from the web site indicating that the web site's certificate is revoked. Which of the following includes a list of certificates that have been revoked?
+A. CRL
+B. CA
+C. OCSP
+D. CSR
+510014. An organization recently updated its security policy. One change is a requirement for all internal web servers to only support HTTPS traffic. However, the organization does not have funds to pay for this. Which of the following is the BEST solution?
+A. Create code signing certificates for the web servers.
+B. Create one wildcard certificate for all the web servers.
+C. Create a public CA and issue certificates from it.
+D. Create certificates signed by an internal private CA.
+510015. An administrator is installing a certificate with a private key on a server. Which of the following certificate types is he MOST likely installing?
+A. DER
+B. P12
+C. P7B
+D. CRT
+511001. Management within your organization wants to ensure that users understand the rules of behavior when they access the organization's computer systems and networks. Which of the following BEST describes what they would Implement to meet this requirement?
+A. AUP
+B. NDA
+C. BYOD
+D. DD
+511002. Martin has worked as a network administrator for several years within your organization. Over time, he has been tasked with performing several jobs. Including database administration and application development. Security personnel are concerned that his level of access represents a serious risk. Which of the following is the BEST solution to reduce this risk?
+A. Mandatory vacations
+B. Exit Interview
+C. Change management
+D. Separation of duties
+511003. After a recent security audit, management has decided to upgrade the security policy. Among other items, they want to identify a policy that will reduce the risk of personnel within an organization colluding to embezzle company funds. Which of the following is the BEST choice to meet this need?
+A. AUP
+B. Training
+C. Mandatory vacations
+D. Background check
+511004. After a major data breach, Lisa has been tasked with reviewing security policies related to data loss. Which of the following is MOST closely related to data loss?
+A. Clean desk policy
+B. Legal hold policy
+C. Job rotation policy
+D. Background check policy
+511005. An organization is preparing to hire additional network administrators. They decide to perform background checks on all personnel after obtaining written permission. Which of the following items is NOT appropriate to include in a background check?
+A. Social media presence
+B. Criminal background
+C. Financial history
+D. Medical history
+511006. Dan has been working at your company as an accountant. However, after a disagreement with an executive, he decides to leave the company and work at the local mall. He has a user account allowing him to access network resources. Which of the following is the MOST appropriate step to take?
+A. Ensure his account is disabled when he announces that he will be leaving the company.
+B. Immediately terminate his employment.
+C. Force him to take a mandatory vacation.
+D. Ensure his account is disabled during his exit interview.
+511007. Your organization is planning to implement an incident response plan in response to a new incident response security policy. Which of the following items is the FIRST step in an incident response process?
+A. Preparation
+B. Identification
+C. Containment
+D. Eradication
+511008. Waylon reported suspicious activity on his computer. After investigating, you verify that his computer is infected with malware. Which of the following steps should you take NEXT?
+A. Identification
+B. Preparation
+C. Containment
+D. Eradication
+511009. After a recent incident, a forensic analyst was given several hard drives to analyze. Which of the following should the analyst do FIRST?
+A. Take screenshots and capture drive images.
+B. Take hashes and screenshots.
+C. Take hashes and capture drive images.
+D. Perform antivirus scans and create chain of custody documents.
+511010. You need to create an image of a large hard drive for forensic analysis from a Linux system. Which of the following will you MOST likely use?
+A. hashing
+B. screenshots
+C. dd
+D. logs
+511011. The BizzFad company decides to partner with Costington's to bid on a contract. Management in both companies realize that they need to share proprietary data. However, they want to ensure that distribution of this data is limited within each of the companies. Which of the following will BEST meet this need?
+A. MOU
+B. BRA
+C. NDA
+D. ISA
+511012. You are reviewing incident response procedures related to the order of volatility. Which of the following is the LEAST volatile?
+A. Hard disk drive
+B. Memory
+C. RAiD-10 cache
+D. CPU cache
+511013. After learning that an employee had unauthorized material on his computer, management directed security personnel to confiscate his computer. Later, a security expert captured a forensic image of the system disk. However, he reported that the computer was left unattended for several hours before he captured the image. Which of the following is a potential issue if this incident goes to court?
+A. Chain of custody
+B. Order of volatility
+C. Time offset
+D. Screenshot
+511014. Your organization is involved in a lawsuit. A judge issued a court order requiring your organization to keep all emails from the lastthreeyears. Your data retention policy states that email should only be maintained from the last 12 months. After investigating, administrators realize that backups contain email from the last three years. What should they do with these backups?
+A. Backups older than 12 months should be deleted to comply with the data retention policy.
+B. Backups for the last 12 months should be protected to comply with the legal hold.
+C. Backups for the last two years should be protected to comply with the legal hold.
+D. Backups for the last three years should be protected to comply with the legal hold.
+511015. Your organization has decided to implement a more aggressive training and continuing education program using role-based training. Management wants to ensure that each role gets the necessary training based on the role. Which of the following BEST describes the responsibilities of data owners and indicates what training they need?
+A. Ensuring data is backed up in accordance with the data policy
+B. Ensuring data is classified and labeled correctly
+C. Complying with laws related to privacy
+D. Understanding common threats, such as malware and phishing attacks
+500201. Homer needs to send an email to his supervisor with an attachment that includes proprietary data. He wants to maintain the confidentiality of this data. Which of the following choices is the BEST choice to meet his needs?
+A. Digital signature
+B. Encryption
+C. Steganography
+D. Hashing
+50020. You are the security administrator in your organization. You want to ensure that a file maintains integrity. Which of the following choices is the BEST solution to meet your goal?
+A. Steganography
+B. Encryption
+C. Hash
+D. AES
+500203. Which of the following accurately identifies primary security control types?
+A. Role-based and discretionary
+B. Technical and administrative
+C. Confidentiality and availability
+D. Encryption and hashing
+500204. You recently started a new job in Information technology security. Your primary responsibilities are to monitor security logs, analyze trend reports, and install CCTV systems. Which of the following choices BEST identifies your responsibilities? (Select TWO.)
+A. Hardening systems
+B. Detecting security incidents
+C. Preventing incidents
+D. Implementing monitoring controls
+500205. A security expert is identifying and implementing several different physical deterrent controls to protect an organization's server room. Which of the following choices would BEST meet this objective?
+A. Using hardware locks
+B. Utilizing data encryption
+C. Performing a vulnerability assessment □.Training users
+500206. An organization is implementing a feature that allows multiple servers to operate on a single physical server. Which of the following is the feature being implemented?
+A. Virtualization
+B. laaS
+C. Cloud computing
+D. DLP
+500207. Lisa is using a Linux computer to monitor network traffic. She connected the computer to the mirror port of a switch and started the logging software. However, she found that the only traffic being collected is traffic to or from the Linux computer. She wants to collect all traffic going through the switch. Which of the following actions should she take?
+A. Run the command ipconfig ethO promise
+B. Run the command ifconfig ethO promise.
+C. Reconfigure the switch.
+D. Connect the computer to a router.
+500208. Management has updated the security policy and it has changed the requirements for the password policy. The password policy needs to ensure that users change their passwords regularly and they cannot reuse their passwords. Which of the following settings need to be configured? (Select THREE.)
+A. Maximum password age
+B. Password length
+C. Password history
+D. Password complexity
+E. Minimum password age
+500209. Your organization has implemented a system that stores user credentials in a central database. Users log on once with their credentials. They can then access other systems in the organization without logging on again. Which of the following does this describe?
+A. Federation
+B. SAML
+C. Single sign-on
+D. Biometrics
+500210. You are modifying a configuration file used to authenticate Linux accounts against an external server. The file includes phrases such as DC=Serverl and DC=Com. Which authentication service is the external server MOST likely using?
+A. Diameter
+B. RADIUS
+C. LDAP
+D. SAML
+500211. A network includes a ticket-granting ticket server. Which of the following choices is the primary purpose of this server?
+A. Authentication
+B. Identification
+C. Authorization
+D. Access control
+500212. Your organization has a strict policy requiring administrators to disable user accounts during the exit interview. This provides several security benefits. Which of the following choices BEST identifies a security benefit of this practice?
+A. Ensures that user security keys are retained
+B. Ensures that user files are retained
+C. Ensures that the account can be enabled again if the employee returns
+D. Ensures that users cannot log on remotely
+500213. An administrator needs to grant users access to different servers based on their job functions. Which access control model is the BEST choice to use?
+A. Discretionary access control
+B. Mandatory access control
+C. Role-based access control
+D. Rule-based access control
+500214. You configure access control for users in your organization. Some departments have a high employee turnover, so you want to simplify account administration. Which of the following is the BEST choice?
+A. User-assigned privileges
+B. Group-based privileges
+C. Domain-assigned privileges
+D. Network-assigned privileges
+500215. The Mapple organization is creating a help-desk team to assist employees with account issues. Members of this team need to create and modify user accounts and occasionally reset user passwords. Which of the following is the BEST way to accomplish this goal?
+A. Give each help-desk employee appropriate privileges individually.
+B. Add members of the help-desk team to a security group that has the appropriate privileges.
+C. Add each member of the help-desk team to the administrator group within the domain.
+D. Assign attributes to members of the group and give these attributes appropriate privileges.
+500216. Lisa wants to manage and monitor the switches and routers in her network. Which of the following protocols would she use?
+A. NAT
+B. SRTP
+C. SNMPvB
+D. DNSSEC
+500217. Your organization has several switches within the network. You need to implement a security control to prevent unauthorized access to these switches. Which of the following choices BEST meets this need?
+A. Disable unused ports.
+B. Implement an implicit deny rule.
+C. Disable STP.
+D. Enable SSH.
+500218. You are troubleshooting a network connectivity issue and find that when you try to ping a remote server, it fails. You suspect that an ACL within a router may be blocking some traffic.
+Which of the following would give you this symptom?
+A. The router is blocking DNS traffic.
+B. The router is blocking ICMP traffic.
+C. The router is blocking SSH traffic.
+D. The router is blocking SFTP traffic.
+500219. Your network currently has a dedicated firewall protecting access to a web server. It is currently configured with only the following two rules in the ACL: PERMIT TCP ANY ANY 443  PERMIT TCP ANY ANY 80 You have detected DNS requests and zone transfer requests coming through the firewall and you need to block them. Which of the following would meet this goal? (Select TWO. Each answer is a full solution.)
+A. Add the following rule to the firewall: DENY TCP ALL ALL 53.
+B. Add the following rule to the firewall: DENY UDP ALL ALL 53.
+C. Add the following rule to the firewall: DENY TCP ALL ALL 25.
+D. Add the following rule to the firewall: DENY IP ALL ALL 53.
+E. Add an implicit deny rule at the end of the ACL.
+500220. Your organization wants to combine some of the security controls used to control incoming and outgoing network traffic. At a minimum, the solution should include malware inspection, content inspection, and a DDoS mitlgator. Which of the following BEST meets this goal?
+A. VLAN
+B. NAT
+C. UTM
+D. DNSSEC
+500221. Your email server Is getting overloaded with spam and much of it is malicious. You need to implement a solution that can help reduce the amount of spam reaching the email server. Which of the following is the BEST choice?
+A. Reverse proxy
+B. Media gateway
+C. Web application firewall
+D. Mail gateway
+500222. Your organization has a dedicated classroom used for teaching computer classes. Students include internal employees and visiting guests. Security administrators recently discovered that students were unplugging the network cable from some classroom computers and plugging the network cable into their laptop computers, giving them access to network resources. Which of the following is the BEST solution to prevent this activity?
+A. Flood guard
+B. VLAN
+C. Port security
+D. Loop protection
+500223. A HIDS reported a vulnerability on a system based on a known attack. After researching the alert from the HIDS, you identify the recommended solution and begin applying it. What type of HIDS is in use?
+A. Network-based
+B. Signature-based
+C. Heuristic-based
+D. Anomaly-based
+500224. After recently adding additional network devices, administrators noticed an increased workload related to their IDS. Which of the following can cause an increased workload from incorrect reporting?
+A. False negatives
+B. False positives
+C. Signature-based IDS
+D. Behavioral-based IDS
+500225. Lenny noticed a significant number of logon failures for administrator accounts on the organization's public web site. After investigating it further, he notices that most of these attempts are from IP addresses assigned to foreign countries. He wants to implement a solution that will detect and prevent similar attacks. Which of the following is the BEST choice?
+A. Add a flood guard to the network.
+B. Block all traffic from foreign countries.
+C. Implement an IPS.
+D. Disable the administrator accounts.
+500226. You are assisting a small business owner in setting up a public wireless hot spot for her customers. Which of the following actions is MOST appropriate for this hot spot?
+A. Using Open mode
+B. Enabling MAC filtering
+C. Disabling SSID broadcast
+D. Installing directional antennas
+500227. Jasper is setting up an 802.1 lac network at the Retirement Castle. He wants to provide the highest level of security. Which of the following would BEST meet his needs?
+A. WPA2 with AES
+B. WPA2withTKIP
+C. WPA2 with SSL
+D. WPA2 with MD5
+500228. You are planning a wireless network for a business. A core requirement is to ensure that the solution encrypts user credentials when users enter their usernames and passwords. Which of the following BEST meets this requirement?
+A. WPA2-PSK
+B. WPA2 using CCMP
+C. WPS with EAP-FAST
+D. WPA2 with EAP-TTLS
+500229. An attacker can access email contact lists on your smartphone. What type of attack is this?
+A. Bluesnarfing
+B. Bluejacking
+C. Captive portal
+D. WPS
+500230. An organization is hosting a VPN. Management wants to ensure that all VPN clients are using up-to-date operating systems and antivirus software. Which of the following would BEST meet this need?
+A. NAT
+B. NAC
+C. VLAN
+D. DMZ
+500231. A network administrator needs to update the operating system on switches used within the network. Assuming the organization is following standard best practices, what should the administrator do first?
+A. Submit a request using the baseline configuration process.
+B. Submit a request using the incident management process.
+C. Submit a request using the change management process.
+D. Submit a request using the application patch management process.
+500232. What functions does an HSM include?
+A. Reduces the risk of employees emailing confidential information outside the organization
+B. Provides webmail to clients
+C. Provides full drive encryption
+D. Generates and stores keys used with servers
+500233. The Shelbyville Nuclear Power Plant stores some data in the cloud using its own resources. The Springfield school system also has a cloud using its own resources. Later, the two organizations decide to share some of the educational data in both clouds. Which of the following BEST describes the cloud created by these two organizations?
+A. Community
+B. Private
+C. Public
+D. PaaS
+500234. Ziffcorp is planning to eliminate its current BYOD policy and instead implement a COPE deployment model. You're asked to provide input for the new policy. Which of the following concepts are appropriate for this policy?
+A. Encryption on employee-owned devices
+B. HSM
+C. ISA
+D. Remote wipe
+500235. Your organization is planning to implement a CYOD policy. Which of the following security controls will help protect data by isolating it?
+A. Encrypt sensitive data
+B. Storage segmentation
+C. Full device encryption
+D. Rooting
+500236. Bart recently launched an attack on a company web site using scripts he found on the Internet. Which of the following BEST describes Bart as a threat actor?
+A. Insider
+B. Hacktivist
+C. Script kiddie
+D. Nation-state
+500237. Recently, malware on a computer at the Monty Burns Casino destroyed several important files after it detected that Homer was no longer employed at the casino. Which of the following BEST identifies this malware?
+A. Logic bomb
+B. Rootkit
+C. Backdoor
+D. Adware
+500238. A security administrator at a shopping mall discovered two wireless cameras pointing at an automatic teller machine. These cameras were not installed by mall personnel and are not authorized. What is the MOST likely goal of these cameras?
+A. Tailgating
+B. Dumpster diving
+C. Vishing
+D. Shouider surfing
+500239. Maggie reports that she keeps receiving unwanted emails about mortgages. What does this describe?
+A. Phishing
+B. Spear phishing
+C. Spam
+D. Vishing
+500240. Your organization has been receiving a significant amount of spam with links to malicious web sites. You want to stop the spam. Of the following choices, which provides the BEST solution?
+A. Add the domain to a block list.
+B. Use a URL filter.
+C. Use a MAC filter.
+D. Add antivirus software.
+500241. Lisa received an email advertising the newest version of a popular smartphone. She's been looking for this smartphone, but can't find it anywhere else. This email includes a malicious link. Which of the following principles is the email sender employing?
+A. Authority
+B. Intimidation
+C. Scarcity
+D. Trust
+500242. An IDS alerts on increased traffic. Upon investigation, you realize it is due to a spike in network traffic from several sources. Assuming this is malicious, which of the following is the MOST likely explanation?
+A. A smurf attack
+B. A spoofing attack
+C. A DoS attack
+D. A DDoS attack
+500243. An application on one of your database servers has crashed several times recently. Examining detailed debugging logs, you discover that just prior to crashing, the database application is receiving a long series of x90 characters. What is MOST likely occurring?
+A. SQL injection
+B. Buffer overflow
+C. XML injection
+D. Zero-day
+500244. A review of a web application discovered that the application is not performing boundary checking. Which of the following should the web developer add to this application to resolve this Issue?
+A. XSRF
+B. XSS
+C. Input validation
+D. Fuzzing
+500245. Web developers are implementing error handling in a web site application. Which of the following represents a best practice for this?
+A. Displaying a detailed error message but logging generic information on the error
+B. Displaying a generic error message but logging detailed information on the error
+C. Displaying a generic error message and logging generic information on the error
+D. Displaying a detailed error message and logging detailed information on the error
+500246. Developers have created an application that users can download and install on their computers. Management wants to provide users with a reliable method of verifying that the application has not been modified. Which of the following methods provides the BEST solution?
+A. Code signing
+B. Input validation
+C. Code obfuscation
+D. Stored procedures
+500247. Some protocols include timestamps and sequence numbers. These components help protect against what type of attacks?
+A. Amplification
+B. Replay
+C. SYN flood
+D. Salting
+500248. Looking at logs for an online web application, you see that someone has entered the following phrase into several queries: 'or'r='1'~ Which of the following provides the BEST protection against this attack?
+A. Normalization
+B. Proper error handling
+C. Removing dead code
+D. Stored procedures
+500249. You need to calculate the ALE for a server. The value of the server is $3,000 and It has failed 10 times in the past year. Each time it failed, it resulted in a 10 percent loss. What is the ALE?
+A. $300
+B. $500
+C. $3,000
+D. $30,000
+500250. A recent vulnerability scan reported that a web application server is missing some patches. However, after inspecting the server, you realize that the patches are for a protocol that administrators removed from the server. Which of the following is the BEST explanation for this disparity?
+A. False negative
+B. False positive
+C. Lack of patch management tools
+D. The patch isn't applied
+500251. You suspect that a database server used by a web application does not have current patches. Which of the following is the BEST action to take to verify the server has up-to-date patches?
+A. Network mapping
+B. Port scan
+C. Protocol analyzer
+D. Vulnerability scan
+500252. You suspect that a user is running an unauthorized AP within the organization's building. Which of the following tools is the BEST choice to see if an unauthorized AP is operating on the network?
+A. Rogue system
+B. Wireless scanner
+C. Password cracker
+D. Penetration test
+500253. Your organization outsourced development of a software module to modify the functionality of an existing proprietary application. The developer completed the module and is now testing it with the entire application. What type of testing is the developer performing?
+A. White box
+B. Black box
+C. Gray box
+D. Black hat
+500254. Your coworker tells you how recent attacks on the network have been disrupting services and network connectivity. He suggests that you use Nmap to run a vulnerability scan on the network and identify vulnerabilities. Which of the following should you do FIRST?
+A. Create a network map.
+B. Locate a network map.
+C. Obtain an administrative account to run a credentialed scan.
+D. Obtain authorization.
+500255. Your organization's security policy states that administrators should follow the principle of least privilege. Which of the following tools can ensure that administrators are following the policy?
+A. Permission auditing review
+B. Risk assessment
+C. Vulnerability assessment
+D. Threat assessment
+500256. You need to secure access to a data center. Which of the following choices provides the BEST
+physical security to meet this need? (Select THREE.)
+A. Biometrics
+B. Cable locks
+C. Mantrap
+D. CCTV
+500257. Your company wants to control access to a restricted area of the building by adding an additional physical security control that includes facial recognition. Which of the following provides the BEST solution?
+A. Bollards
+B. Guards
+C. Retina scanners
+D. Cameras
+500258. An organization needs to improve fault tolerance to increase data availability. However, the organization has a limited budget. Which of the following is the BEST choice to meet the organization's needs?
+A. RAID
+B. Backup system
+C. Hot and cold aisles
+D. UPS
+500259. You need to modify the network infrastructure to increase availability of web-based applications for Internet clients. Which of the following choices provides the BEST solution?
+A. Load balancing
+B. Proxy server
+C. UTM
+D. Content inspection
+500260. Your backup policy for a database server dictates that the amount of time needed to restore backups should be minimized. Which of the following backup plans would BEST meet this need?
+A. Full backups on Sunday and incremental backups on the other six days of the week
+B. Full backups on Sunday and differential backups on the other six days of the week
+C. Incremental backups on Sunday and differential backups on the other six days of the week
+D. Differential backups on Sunday and incremental backups on the other six days of the week
+500261. After a recent attack causing a data breach, an executive is analyzing the financial losses. She determined that the attack is likely to cost at least $1 million. She wants to ensure that this information is documented for future planning purposes. In which of the following is she MOST likely to document it?
+A. DRP
+B. BIA
+C. HVAC
+D. RTO
+500262. An organization is considering an alternate location as part of its continuity of operations plan. It wants to identify a solution that provides the shortest recovery time. Which of the following is the BEST choice?
+A. Cold site
+B. Warm site
+C. Hot site
+D. Off-site backups
+500263. You need to identify a method that can be used for data integrity. Which of the following choices will meet your needs?
+A. AES
+B. DES
+C. RC4
+D. SHA
+500264. Users in your organization sign their emails with digital signatures. Which of the following provides integrity for these digital signatures?
+A. Hashing
+B. Encryption
+C. Non-repudiation
+D. Private key
+500265. Network administrators in your organization need to administer firewalls, security appliances, and other network devices. These devices are protected with strong passwords, and the passwords are stored in a file listing these passwords. Which of the following is the BEST choice to protect this password list?
+A. File encryption
+B. Database field encryption
+C. Full database encryption
+D. Whole disk encryption
+500266. An application developer needs to use an encryption protocol to encrypt credit card data within a database used by the application. Which of the following would be the FASTEST, while also providing strong confidentiality?
+A. AES-256
+B. DES
+C. Blowfish
+D. SHA-2
+500267. A developer Is creating an application that will encrypt and decrypt data on mobile devices. These devices don't have a lot of processing power. Which of the following cryptographic methods has the LEAST overhead and will work with these mobile devices?
+A. Elliptic curve
+B. 3DES
+C. PBKDF2
+D. Bcrypt
+500268. Your organization hosts a web site used only by employees. The web site uses a certificate issued by a private CA and the network downloads a CRL from the CA once a week. However, after a recent compromise, security administrators want to use a real-time alternative to the CRL Which of the following will BEST meet this need?
+A. DSA
+B. HMAC
+C. CSR
+D. OCSP
+500269. You need to request a certificate for a web server. Which of the following would you MOST likely use?
+A. CA
+B. CRL
+C. CSR
+D.OCSP
+500270. Your organization recently updated a security policy. It states that duties of network administrators and application developers must be separated. Which of the following is the MOST likely result of implementing this policy?
+A. One group develops program code and the other group deploys the code.
+B. One group develops program code and the other group modifies the code.
+C. One group deploys program code and the other group administers databases.
+D. One group develops databases and the other group modifies databases.
+500271. Your organization wants to prevent damage from malware. Which of the following phases of common incident response procedures is the BEST phase to address this?
+A. Preparation
+B. Identification
+C. Containment
+D. Lessons learned
+500272. A forensic expert is preparing to analyze a hard drive. Which of the following should the expert do FIRST?
+A. Capture an image.
+B. Identify the order of volatility.
+C. Create a chain of custody document.
+D. Take a screenshot.
+500273. An administrator recently learned of a suspected attack on a Florida-based web server from IP address 72.52.206.134 at 01:45:43 GMT. However, after investigating the logs, he doesn't see any traffic from that IP at that time. Which of the following is the MOST likely reason why the administrator was unable to identify the traffic?
+A. He did not account for time offsets.
+B. He did not capture an image.
+C. The IP address has expired.
+D. The logs were erased when the system was rebooted.
+500274. Social engineers have launched several successful phone-based attacks against your organization resulting in several data leaks. Which of the following would be MOST effective at reducing the success of these attacks?
+A. Implement a BYOD policy.
+B. Update the AUP.
+C. Provide training on data handling.
+D. Implement a program to increase security awareness.
+500275. Security personnel recently released an online training module advising employees not to share specific personal information on social media web sites that they visit. Which of the following is this advice MOST likely trying to prevent?
+A. Spending time on non-work-related sites
+B. Phishing attack
+C. Cognitive password attacks
+D. Rainbow table attack

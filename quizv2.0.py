@@ -2,19 +2,26 @@ import re
 import random
 import string
 
-questions = []
-answer_key = []
+###########################################################################
 QUESTION_REGEX_PATTERN= "^[0-9]{1,2}.+$"
 ANSWER_REGEX_PATTERN= "^[ABCDEFG]\."
-QUESTION_NUMBER_PATTERN="^[0-9]+[\\.]"
+#QUESTION_NUMBER_PATTERN="^[0-9]+[\\.]"
+QUESTION_NUMBER_PATTERN="^[0-9]+"
+QUESTION_NUMBER_PATTERN_NUMBER="\b\d+\b"
 QUESTION_NUMBER_ONLY="^[0-9]"
 ANSWER_LIST=['A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f']
 SINGLE_LETTER_ANSWER_AFTER_NUMBER="[{A-F}]+[\\.]"
 SINGLE_LETTER_ANSWER_NUMBER_ONLY="[{A-F}]"
+YES=['Y', 'y']
+questions = []
+answer_key = []
+min_question_num = 0
+max_question_num = 999999
 
-
+###########################################################################
 def create_key(id_number ,correct_answer, explanation):
     return {
+#        "id_number" : re.findall(QUESTION_NUMBER_PATTERN_NUMBER, id_number),
         "id_number" : id_number,
         "correct_answer" : correct_answer,
         "explanation" : explanation
@@ -28,14 +35,12 @@ def create_answer(text):
 def create_question(id_number, text):
     return {
         "question" : text,
+#        "id_number" : re.findall(QUESTION_NUMBER_PATTERN_NUMBER, id_number),
         "id_number" : id_number,
         "choices" : []
     }
 
 ###########################################################################
-# TO-DO:
-#
-
 def extract_questions(file_name):
     line_number = 0
     #print(line_number)
@@ -46,39 +51,35 @@ def extract_questions(file_name):
             #print(line)
             if question_regex.match(line):
                 line_number += 1
-                line_numbert = re.findall(QUESTION_NUMBER_PATTERN, line)
-                questions.append(create_question(line_numbert[0],line))
+                line_numbers = re.findall(QUESTION_NUMBER_PATTERN, line)
+                line_numbert = int(filter(str.isdigit, line_numbers[0]))
+#                print(line_numbert, line_numbert + 1)
+                questions.append(create_question(line_numbert,line))
             elif answer_regex.match(line):
                 questions[len(questions) - 1]['choices'].append(create_answer(line))
     print('QUESTIONES ADDED: ' + str(line_number))
     return questions
 
 ###########################################################################
-# TO-DO:
-#
-#
-
 def extract_key(file_name):
     line_number = 0
     with open(file_name) as f:
         question_regex = re.compile(QUESTION_REGEX_PATTERN)
         for line in f:
             # if the Q & A are out of order, print and check through
-            print questions[line_number]
-            print(line)
+            #print questions[line_number]
             if question_regex.match(line):
                 line_number += 1
-                line_numbert = re.findall(QUESTION_NUMBER_PATTERN,line)
+                line_numbers = re.findall(QUESTION_NUMBER_PATTERN,line)
+                line_numbert = int(filter(str.isdigit, line_numbers[0]))
                 correct_letter_a = re.findall(SINGLE_LETTER_ANSWER_AFTER_NUMBER,line)
                 correct_letter = re.findall(SINGLE_LETTER_ANSWER_NUMBER_ONLY,correct_letter_a[0])
-                answer_key.append(create_key(line_numbert[0],correct_letter,line))
+                answer_key.append(create_key(line_numbert,correct_letter,line))
     print('ANSWERS ADDED: ' + str(line_number))
     return answer_key
 
 ###########################################################################
-# TO-DO:
-
-
+###########################################################################
 def quiz():
     number = 0
     wrong = 0
@@ -113,7 +114,7 @@ def quiz():
 
     print("\n\033[5;31;38mYOU GOT " + str(right) + " RIGHT AND " + str(wrong) + " WRONG! OUT Of "+ str(right + wrong) + " QUESTIONS. \033[0m ")
     return
-
+###########################################################################
 if __name__ == '__main__':
     FILE_NAME1 = "quiz.txt"
     FILE_NAME2 = "key.txt"
@@ -136,7 +137,22 @@ if __name__ == '__main__':
     questions = extract_questions(FILE_NAME1)
     answer_key = extract_key(FILE_NAME2)
 
-    #print(questions)
+#    for i in range(len(questions)):
+#        print('-------------------------------------')
+#        print(questions[i])
+#        print(answer_key[i])
+
+    if raw_input('\033[1;35;38m QUESTION RANGE? (Y or N) \033[0m ') == YES:
+        print("\n")
+        print("\033[1;31;38m/==============================================================\ \033[0m  ")
+        print("\033[1;31;38m|  SY0-401 - Questions range from 1 - 11020                    | \033[0m  ")
+        print("\033[1;31;38m|  SY0-501 - Questions range from 500001 - 511015              | \033[0m  ")
+        print("\033[1;31;38m|   X##XXX - ## equals a chapted number                        | \033[0m  ")
+        print("\033[1;31;38m|   XXX#XX - Range 0-1 = pretest, 2-3 = post-test              | \033[0m  ")
+        print("\033[1;31;38m\==============================================================/ \033[0m  ")
+        print
+        min_question_num = raw_input('\033[1;35;38m MIN QUESTION NUMBER: \033[0m ')
+        max_question_num = raw_input('\033[1;35;38m MAX QUESTION NUMBER: \033[0m ')
 
     quiz()
     print("\nBYE")
