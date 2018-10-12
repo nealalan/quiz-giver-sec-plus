@@ -38,12 +38,10 @@ def create_question(id_number, text):
 
 def extract_questions(file_name):
     line_number = 0
-    #print(line_number)
     with open(file_name) as f:
         question_regex = re.compile(QUESTION_REGEX_PATTERN)
         answer_regex = re.compile(ANSWER_REGEX_PATTERN)
         for line in f:
-            #print(line)
             if question_regex.match(line):
                 line_number += 1
                 line_numbert = re.findall(QUESTION_NUMBER_PATTERN, line)
@@ -63,9 +61,6 @@ def extract_key(file_name):
     with open(file_name) as f:
         question_regex = re.compile(QUESTION_REGEX_PATTERN)
         for line in f:
-            # if the Q & A are out of order, print and check through
-            print questions[line_number]
-            print(line)
             if question_regex.match(line):
                 line_number += 1
                 line_numbert = re.findall(QUESTION_NUMBER_PATTERN,line)
@@ -118,6 +113,9 @@ if __name__ == '__main__':
     FILE_NAME1 = "quiz.txt"
     FILE_NAME2 = "key.txt"
 
+    questions = extract_questions(FILE_NAME1)
+    answer_key = extract_key(FILE_NAME2)
+    #print(questions)
     print("\n")
     print("\033[1;31;38m/==============================================================\ \033[0m  ")
     print("\033[1;31;38m| NEAL'S LITTLE PYTHON SCRIPT TO STUDY SECURITY PLUS QUESTIONS | \033[0m  ")
@@ -125,18 +123,9 @@ if __name__ == '__main__':
     print("\033[1;31;38m|  Questions are randomly selected and will continue forever   | \033[0m  ")
     print("\033[1;31;38m|    unless you eXit or you reach 1,000,000 right answers.     | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
-    print("\033[1;31;38m|  Updated to include SY0-401 and SY0-501 questions.           | \033[0m  ")
-    print("\033[1;31;38m|    The 501 question numbers start with 50.                   | \033[0m  ")
     print("\033[1;31;38m|  https://nealalan.github.io/                                 | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
     print("\033[1;31;38m|  #TEAM_PIGSTICK                                              | \033[0m  ")
     print("\033[1;31;38m\==============================================================/ \033[0m  ")
-    print
-
-    questions = extract_questions(FILE_NAME1)
-    answer_key = extract_key(FILE_NAME2)
-
-    #print(questions)
-
     quiz()
     print("\nBYE")
