@@ -1,10 +1,12 @@
 ###########################################################################
+# project: https://nealalan.github.io/quiz-giver-sec-plus
+# updated: 2018/10/20 v2.1b
 #
 # python program to give a quiz based on two input files
 #
-# updated: 2018/10/14
-# project: https://nealalan.github.io/quiz-giver-sec-plus
-#
+# v2.1b commented out prints used for debugging and validated the Q#
+#  input incase the user messed it up
+# See additional details in print_banner()
 
 import re
 import random
@@ -61,15 +63,21 @@ def print_banner():
     print("\033[1;31;38m/==============================================================\ \033[0m  ")
     print("\033[1;31;38m| NEAL'S LITTLE PYTHON SCRIPT TO STUDY SECURITY PLUS QUESTIONS | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
+    print("\033[1;31;38m|  https://nealalan.github.io/                                 | \033[0m  ")
+    print("\033[1;31;38m|                                                              | \033[0m  ")
     print("\033[1;31;38m|  Questions are randomly selected and will continue forever   | \033[0m  ")
     print("\033[1;31;38m|    unless you eXit or you reach 1,000,000 right answers.     | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
     print("\033[1;31;38m|  Updated to include SY0-401 and SY0-501 questions.           | \033[0m  ")
     print("\033[1;31;38m|    The 501 question numbers start with 50.                   | \033[0m  ")
-    print("\033[1;31;38m|  https://nealalan.github.io/                                 | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
-    print("\033[1;31;38m|  Multi-answer questions should always be answered answered   | \033[0m  ")
-    print("\033[1;31;38m|   merged. Ex: AC                                             | \033[0m  ")
+    print("\033[1;31;38m|  **** v2.0 Updated for question subset selection ****        | \033[0m  ")
+    print("\033[1;31;38m|  Add the ability to narrow the questions down to 1 book,     | \033[0m  ")
+    print("\033[1;31;38m|   one practice test or even a single chapter                 | \033[0m  ")
+    print("\033[1;31;38m|  **** v2.1 Updated for multi-answer support ****             | \033[0m  ")
+    print("\033[1;31;38m|  Multi-answer questions should always be answered            | \033[0m  ")
+    print("\033[1;31;38m|   merged and in alpha order. Ex: AC (Not: A C or CA)         | \033[0m  ")
+    print("\033[1;31;38m|                                                              | \033[0m  ")
     print("\033[1;31;38m|                                                              | \033[0m  ")
     print("\033[1;31;38m|  #TEAM_PIGSTICK                                              | \033[0m  ")
     print("\033[1;31;38m\==============================================================/ \033[0m  ")
@@ -167,15 +175,36 @@ def question_range():
         print("\033[1;31;38m|  SY0-501 - Questions range from 500001 - 511015              | \033[0m  ")
         print("\033[1;31;38m|   X##XXX - ## equals a chapter number                        | \033[0m  ")
         print("\033[1;31;38m|   XXX#XX - Range 0-1 = pretest, 2-3 = post-test              | \033[0m  ")
+        print("\033[1;31;38m|                                                              | \033[0m  ")
+        print("\033[1;31;38m|   1-12000 = SY0-401 pre-test, post-test, ch 1-11 (all)       | \033[0m  ")
+        print("\033[1;31;38m|   200-300 = SY0-401 post-test                                | \033[0m  ")
+        print("\033[1;31;38m|   500000-511015 = SY0-501 pre-test, post-test, ch 1-11 (all) | \033[0m  ")
+        print("\033[1;31;38m|   500000-500075 = SY0-501 pretest                            | \033[0m  ")
+        print("\033[1;31;38m|   500200-500275 = SY0-501 post-test                          | \033[0m  ")
+        print("\033[1;31;38m|   501000-503999 = SY0-501 ch 1-3 review questions            | \033[0m  ")
         print("\033[1;31;38m\==============================================================/ \033[0m  ")
         print
+        get_question_range_numbers()
+        while int(min_question_num) > int(max_question_num):
+            get_question_range_numbers()
+    return
+
+# validate the user put in a valid number
+#  if the number is outside of the question range, we will deal with that later
+def get_question_range_numbers():
+    global min_question_num
+    global max_question_num
+    min_question_num = raw_input('\033[1;35;38m MIN QUESTION NUMBER: \033[0m ')
+    while not min_question_num.isdigit():
         min_question_num = raw_input('\033[1;35;38m MIN QUESTION NUMBER: \033[0m ')
+    max_question_num = raw_input('\033[1;35;38m MAX QUESTION NUMBER: \033[0m ')
+    while not max_question_num.isdigit():
         max_question_num = raw_input('\033[1;35;38m MAX QUESTION NUMBER: \033[0m ')
-        if int(min_question_num) > int(max_question_num):
-            min_question_num = raw_input('\033[1;35;38m MIN QUESTION NUMBER: \033[0m ')
-            max_question_num = raw_input('\033[1;35;38m MAX QUESTION NUMBER: \033[0m ')
-        return
+    return
+
 ###########################################################################
+# Used for debugging the input questions - This will print a question and
+#  same array offset for the answer
 def print_all_questions():
     for i in range(len(questions)):
         print('-------------------------------------')
@@ -228,13 +257,14 @@ def quiz():
             print("\033[1;33;39m" + choice['choice'] + " \033[0m ")
         # read the answer key
         current_answer_key = check_answer_key(current_question_record)
-        print(len(current_answer_key['correct_answer']))
+        # indicate if this is an answer with more than one letters
+        #print(len(current_answer_key['correct_answer']))
         if len(current_answer_key['correct_answer']) > 1:
             print('NOTE: THIS IS A MULTI ANSWER QUESTION!')
         # ask the user for the answer
         get_answer = raw_input('ENTER YOUR ANSWER: ')
         get_answer = string.upper(get_answer)
-        #
+        # loop until the user inputs an answer that's in ANSWER_LIST=[] in variables
         while get_answer not in ANSWER_LIST:
             get_answer = raw_input('\033[5;35;38mENTER YOUR ANSWER:\033[0m ')
             get_answer = string.upper(get_answer)
@@ -261,9 +291,14 @@ def quiz():
 ###########################################################################
 if __name__ == '__main__':
     print_banner()
+    # note: The questions and answer_key are read in and stored in two separate arrays
+    #  this program is written to use the [index_offset] to match the Q and A and no
+    #  error checking is in place to make sure the Q matches the A at the same [array_index]
     questions = extract_questions(FILE_NAME1)
     answer_key = extract_key(FILE_NAME2)
+    # ask the user if they want to narrow down the questions asked and validate the user input
     question_range()
+    # used for debugging input Q and A that don't match
     #print_all_questions()
     quiz()
     print("\nBYE")

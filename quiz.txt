@@ -3,7 +3,7 @@ A. Ensure critical systems provide uninterrupted service.
 B. Protect data in transit from unauthorized disclosure.
 C. Ensure systems are not susceptible to unauthorized changes.
 D. Secure data to prevent unauthorized disclosure.
-2. You need to transmit Pll via email and you want to maintain its confidentiality. Of the following choices, what is the BEST solution?
+2. You need to transmit PII via email and you want to maintain its confidentiality. Of the following choices, what is the BEST solution?
 A. Use hashes.
 B. Encrypt it before sending.
 C. Protect it with a digital signature.
@@ -94,7 +94,7 @@ A. DAC
 B. MAC
 C. Role-BAC
 D. Rule-BAC
-20. Your organization's security policy requires that Pll data at rest and Pll data in transit be encrypted. Of the following choices, what would the organization use to achieve these objectives? (Select TWO.)
+20. Your organization's security policy requires that PII data at rest and PII data in transit be encrypted. Of the following choices, what would the organization use to achieve these objectives? (Select TWO.)
 A. FTP
 B. SSH
 C. SMTP
@@ -276,7 +276,7 @@ A. Logic bomb
 B. Rootkit
 C. Armored virus
 D. Ransomware
-56. Lisa recently completed an application used by the Personnel department to store Pll and other employee information. She programmed in the ability to access this application with a username and password that only she knows, so that she can perform remote maintenance on the application if necessary. What does this describe?
+56. Lisa recently completed an application used by the Personnel department to store PII and other employee information. She programmed in the ability to access this application with a username and password that only she knows, so that she can perform remote maintenance on the application if necessary. What does this describe?
 A. Armored virus
 B. Polymorphic virus
 C. Backdoor
@@ -994,7 +994,7 @@ A. HSM
 B. NTFS
 C. VSAN
 D. TPM
-5019. Management wants to ensure that employees do not print any documents that inci ude customer Pll. Which of the following solutions would meet this goal?
+5019. Management wants to ensure that employees do not print any documents that inci ude customer PII. Which of the following solutions would meet this goal?
 A. HSM
 B. TPM
 C. VLAN
@@ -1059,7 +1059,7 @@ A. Shoulder surfing
 B. Tailgating
 C. Vishing
 D. Dumpster diving
-6012. While cleaning out his desk, Bart threw several papers containing Pll into the recycle bin. Which type of attack can exploit this action?
+6012. While cleaning out his desk, Bart threw several papers containing PII into the recycle bin. Which type of attack can exploit this action?
 A. Vishing
 B. Dumpster diving
 C. Shoulder surfing
@@ -2113,7 +2113,7 @@ A. Witnesses were not identified.
 B. A chain of custody was not maintained.
 C. An order of volatility was not maintained.
 D. A hard drive analysis was not complete.
-500001. Management within your organization has defined a use case to support confidentiality of Pll stored in a database. Which of the following solutions will BEST meet this need?
+500001. Management within your organization has defined a use case to support confidentiality of PII stored in a database. Which of the following solutions will BEST meet this need?
 A. Hashing
 B. Digital signature
 C. Encryption
@@ -2278,7 +2278,7 @@ A. Create an Internal CA.
 B. Implement WPA2 Enterprise.
 C. Implement patch management processes.
 D. Configure the SCADA within a VLAN.
-500034. Management wants to ensure that employees do not print any documents that Include customer or employee Pll. Which of the following solutions would meet this goal?
+500034. Management wants to ensure that employees do not print any documents that Include customer or employee PII. Which of the following solutions would meet this goal?
 A. HSM
 B. TPM
 C. VLAN
@@ -2490,7 +2490,7 @@ A. Witnesses were not identified.
 B. A chain of custody was not maintained.
 C. An order of volatility was not maintained.
 D. A hard drive analysis was not complete.
-501001. You need to transmit Pll via email and you want to maintain its confidentiality. Which of the following choices is the BEST solution?
+501001. You need to transmit PII via email and you want to maintain its confidentiality. Which of the following choices is the BEST solution?
 A. Use hashes.
 B. Encrypt it before sending.
 C. Protect it with a digital signature.
@@ -2640,7 +2640,7 @@ A. DAC
 B. MAC
 C. Role-BAC
 D. ABAC
-503001. Your organization's security policy requires that Pll data-in-transit must be encrypted. Which of the following protocols would BEST meet this requirement?
+503001. Your organization's security policy requires that PII data-in-transit must be encrypted. Which of the following protocols would BEST meet this requirement?
 A. FTP
 B. SSH
 C. SMTP
@@ -2873,7 +2873,7 @@ A. Logic bomb
 B. Rootkit
 C. Spyware
 D. Ransomware
-506003. Lisa recently developed an application for the Human Resources department. Personnel use this application to store and manage employee data, including Pll. She programmed in the ability to access this application with a username and password that only she knows, so that she can perform remote maintenance on the application if necessary. Which of the following does this describe? A. Virus
+506003. Lisa recently developed an application for the Human Resources department. Personnel use this application to store and manage employee data, including PII. She programmed in the ability to access this application with a username and password that only she knows, so that she can perform remote maintenance on the application if necessary. Which of the following does this describe? A. Virus
 B. Worm
 C. Backdoor
 D.Trojan
@@ -2902,7 +2902,7 @@ A. Spear phishing
 B. Whaling
 C. Mantrap
 D. Tallgating
-506009. While cleaning out his desk, Bart threw several papers containing Pll Into the recycle bin. Which type of attack can exploit this action?
+506009. While cleaning out his desk, Bart threw several papers containing PII Into the recycle bin. Which type of attack can exploit this action?
 A. Vishing
 B. Dumpster diving
 C. Shoulder surfing
@@ -3137,7 +3137,7 @@ A. Active-passive
 B. Round-robin
 C. Affinity
 D. Active-active
-509011. Your organization has decided to increase the amount of customer data it maintains and use it for targeted sales. However, management is concerned that they will need to comply with existing laws related to Pll. Which of the following should be completed to determine if the customer data is Pll?
+509011. Your organization has decided to increase the amount of customer data it maintains and use it for targeted sales. However, management is concerned that they will need to comply with existing laws related to PII. Which of the following should be completed to determine if the customer data is PII?
 A. Privacy threshold assessment
 B. Privacy impact assessment
 C. Tabletop exercise
