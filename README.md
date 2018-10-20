@@ -1,8 +1,9 @@
 ## [nealalan.github.io](https://nealalan.github.io)/[quiz-giver-sec-plus](https://nealalan.github.io/quiz-giver-sec-plus)
 
 - 2018/10/20 version 2.1b added comments, removed print() for debugging, added validation for optional number input to narrow the questions down to a specific book, chapter or exam
-- 2018/10/11 version 2.1 is fixing the regex issues, adding logic comments and some fixing of bugs
-- 2018/10/10 version 2.0 works
+- 2018/10/11 version 2.1 added multi-answer validation, fixed the regex issues, fixed dead code, added logic comments
+- 2018/10/10 version 2.0 includes SY0-401 and SY0-501 questions, fixed a number of input validation
+- 2018/01/18 version 1.0 initial program to loop through the SY0-401 questions and answer, validate the user input
 
 ## Requirements:
 you need to have installed:
