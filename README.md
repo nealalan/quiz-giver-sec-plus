@@ -10,7 +10,7 @@
 - 2018/01/18 version 1.0 initial program to loop through the SY0-401 questions and answer, validate the user input
 
 ## Requirements:
-you need to have installed:
+From the command line... you need to have installed:
 - git
 - python
 
