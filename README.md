@@ -1,5 +1,8 @@
 ## [nealalan.github.io](https://nealalan.github.io)/[quiz-giver-sec-plus](https://nealalan.github.io/quiz-giver-sec-plus)
 
+![](https://github.com/nealalan/quiz-giver-sec-plus/blob/master/images/Screen%20Shot%202018-10-20%20at%201.39.49%20PM.jpg?raw=true)
+![](https://github.com/nealalan/quiz-giver-sec-plus/blob/master/images/Screen%20Shot%202018-10-20%20at%201.38.46%20PM.jpg?raw=true)
+
 - 2018/10/20 version 2.1b added comments, removed print() for debugging, added validation for optional number input to narrow the questions down to a specific book, chapter or exam
 - 2018/10/11 version 2.1 added multi-answer validation, fixed the regex issues, fixed dead code, added logic comments
 - 2018/10/10 version 2.0 includes SY0-401 and SY0-501 questions, fixed a number of input validation
